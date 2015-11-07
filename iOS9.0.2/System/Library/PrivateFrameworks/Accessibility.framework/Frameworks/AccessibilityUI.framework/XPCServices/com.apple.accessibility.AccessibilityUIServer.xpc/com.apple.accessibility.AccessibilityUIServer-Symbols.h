@@ -1,0 +1,56 @@
+-[AXUIApplication _expectedViewOrientation]
+-[AXUIApplication _run]
+___23-[AXUIApplication _run]_block_invoke
+-[AXUIApplication accessibilityLabel]
+-[AXUIApplication _accessibilityIsAccessibilityUIServer]
+-[AXUIApplication accessibilityFrame]
+-[AXUIApplication _accessibilityIsolatedWindows]
+___48-[AXUIApplication _accessibilityIsolatedWindows]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+__stopProgramTerm
+-[AXUIApplicationDelegate application:didFinishLaunchingWithOptions:]
+_objc_msgSend$shim
+__Block_object_assign$shim
+__Block_object_dispose$shim
+ stub helpers
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp30
+_OBJC_CLASS_$_AXUIApplication
+_OBJC_CLASS_$_AXUIApplicationDelegate
+_OBJC_METACLASS_$_AXUIApplication
+_OBJC_METACLASS_$_AXUIApplicationDelegate
+__mh_execute_header
+_main
+_AXPerformBlockAsynchronouslyOnMainThread
+_AXProcessRequestMobileUserPrivileges
+_OBJC_CLASS_$_AXUIDisplayManager
+_OBJC_CLASS_$_AXUINSBundleOverride
+_OBJC_CLASS_$_AXUIServiceManager
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_UIResponder
+_OBJC_CLASS_$_UIScreen
+_OBJC_CLASS_$_UIWindow
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_UIApplication
+_OBJC_METACLASS_$_UIResponder
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+___CFConstantStringClassReference
+___UIAccessibilityCastAsSafeCategory
+__objc_empty_cache
+_abort
+_exit
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_signal
+dyld_stub_binder

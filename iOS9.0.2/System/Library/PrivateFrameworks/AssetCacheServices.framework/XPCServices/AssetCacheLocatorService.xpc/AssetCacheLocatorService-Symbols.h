@@ -1,0 +1,1330 @@
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/AssetCacheServices/AssetCacheServices-14/AssetCacheLocatorService/
+ACLSTypeVerifier.m
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/Objects-normal/armv7s/ACLSTypeVerifier.o
+-[ACLSTypeVerifier initWithTemplate:]
+-[ACLSTypeVerifier verify:name:tag:]
+-[ACLSTypeVerifier sanitize:tag:]
+-[ACLSTypeVerifier verify:name:withTemplate:tag:]
+___49-[ACLSTypeVerifier verify:name:withTemplate:tag:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___49-[ACLSTypeVerifier verify:name:withTemplate:tag:]_block_invoke36
+___copy_helper_block_39
+___destroy_helper_block_40
+-[ACLSTypeVerifier sanitize:withTemplate:tag:]
+___46-[ACLSTypeVerifier sanitize:withTemplate:tag:]_block_invoke
+___copy_helper_block_54
+___destroy_helper_block_55
+___46-[ACLSTypeVerifier sanitize:withTemplate:tag:]_block_invoke60
+___copy_helper_block_63
+___destroy_helper_block_64
+-[ACLSTypeVerifier template]
+-[ACLSTypeVerifier setTemplate:]
+-[ACLSTypeVerifier .cxx_destruct]
+GCC_except_table3
+_kaclsTypeVerifierClassKey
+_kaclsTypeVerifierMandatoryKey
+_kaclsTypeVerifierTemplateKey
+___block_descriptor_tmp
+___block_descriptor_tmp42
+___block_descriptor_tmp56
+___block_descriptor_tmp65
+_OBJC_IVAR_$_ACLSTypeVerifier._template
+_OBJC_CLASS_$_ACLSTypeVerifier
+_OBJC_METACLASS_$_ACLSTypeVerifier
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/AssetCacheServices/AssetCacheServices-14/AssetCacheLocatorService/
+ACLSImportDelegate.m
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/Objects-normal/armv7s/ACLSImportDelegate.o
+-[ACLSImportDelegate initWithFileHandle:fileOffset:length:callback:callbackQueue:tag:]
+-[ACLSImportDelegate URLSession:didReceiveChallenge:completionHandler:]
+-[ACLSImportDelegate URLSession:task:didReceiveChallenge:completionHandler:]
+-[ACLSImportDelegate URLSession:task:needNewBodyStream:]
+-[ACLSImportDelegate URLSession:task:didCompleteWithError:]
+___59-[ACLSImportDelegate URLSession:task:didCompleteWithError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ACLSImportDelegate URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[ACLSImportDelegate URLSession:dataTask:willCacheResponse:completionHandler:]
+-[ACLSImportDelegate fileHandle]
+-[ACLSImportDelegate setFileHandle:]
+-[ACLSImportDelegate fileOffset]
+-[ACLSImportDelegate setFileOffset:]
+-[ACLSImportDelegate length]
+-[ACLSImportDelegate setLength:]
+-[ACLSImportDelegate callback]
+-[ACLSImportDelegate setCallback:]
+-[ACLSImportDelegate callbackQueue]
+-[ACLSImportDelegate setCallbackQueue:]
+-[ACLSImportDelegate tag]
+-[ACLSImportDelegate setTag:]
+-[ACLSImportDelegate responseCode]
+-[ACLSImportDelegate setResponseCode:]
+-[ACLSImportDelegate .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$_ACLSImportDelegate._fileHandle
+_OBJC_IVAR_$_ACLSImportDelegate._fileOffset
+_OBJC_IVAR_$_ACLSImportDelegate._length
+_OBJC_IVAR_$_ACLSImportDelegate._callback
+_OBJC_IVAR_$_ACLSImportDelegate._callbackQueue
+_OBJC_IVAR_$_ACLSImportDelegate._tag
+_OBJC_IVAR_$_ACLSImportDelegate._responseCode
+_OBJC_CLASS_$_ACLSImportDelegate
+_OBJC_METACLASS_$_ACLSImportDelegate
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/AssetCacheServices/AssetCacheServices-14/AssetCacheLocatorService/
+main.m
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/Objects-normal/armv7s/main.o
+_main
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/AssetCacheServices/AssetCacheServices-14/AssetCacheLocatorService/
+ACLSFileHandleInputStream.m
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/Objects-normal/armv7s/ACLSFileHandleInputStream.o
+-[ACLSFileHandleInputStream initWithFileHandle:fileOffset:length:]
+-[ACLSFileHandleInputStream open]
+-[ACLSFileHandleInputStream close]
+-[ACLSFileHandleInputStream streamStatus]
+-[ACLSFileHandleInputStream streamError]
+-[ACLSFileHandleInputStream _scheduleInCFRunLoop:forMode:]
+-[ACLSFileHandleInputStream _setCFClientFlags:callback:context:]
+-[ACLSFileHandleInputStream read:maxLength:]
+-[ACLSFileHandleInputStream getBuffer:length:]
+-[ACLSFileHandleInputStream hasBytesAvailable]
+-[ACLSFileHandleInputStream fileHandle]
+-[ACLSFileHandleInputStream setFileHandle:]
+-[ACLSFileHandleInputStream fileOffset]
+-[ACLSFileHandleInputStream setFileOffset:]
+-[ACLSFileHandleInputStream fileEndOffset]
+-[ACLSFileHandleInputStream setFileEndOffset:]
+-[ACLSFileHandleInputStream status]
+-[ACLSFileHandleInputStream setStatus:]
+-[ACLSFileHandleInputStream .cxx_destruct]
+_OBJC_IVAR_$_ACLSFileHandleInputStream._fileHandle
+_OBJC_IVAR_$_ACLSFileHandleInputStream._fileOffset
+_OBJC_IVAR_$_ACLSFileHandleInputStream._fileEndOffset
+_OBJC_IVAR_$_ACLSFileHandleInputStream._status
+_OBJC_CLASS_$_ACLSFileHandleInputStream
+_OBJC_METACLASS_$_ACLSFileHandleInputStream
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/AssetCacheServices/AssetCacheServices-14/AssetCacheLocatorService/
+AssetCacheLocatorService.m
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/Objects-normal/armv7s/AssetCacheLocatorService.o
+-[AssetCacheLocatorService init]
+___32-[AssetCacheLocatorService init]_block_invoke
+___32-[AssetCacheLocatorService init]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_234
+___destroy_helper_block_235
+-[AssetCacheLocatorService sandbox]
+-[AssetCacheLocatorService amRunningOnMyQueue]
+-[AssetCacheLocatorService amRunningInMySingleLocate:]
+-[AssetCacheLocatorService objectWithError:]
+-[AssetCacheLocatorService errorWithObject:tag:]
+-[AssetCacheLocatorService NSObjectFromXPCObject:]
+___50-[AssetCacheLocatorService NSObjectFromXPCObject:]_block_invoke
+___copy_helper_block_316
+___destroy_helper_block_317
+___50-[AssetCacheLocatorService NSObjectFromXPCObject:]_block_invoke320
+___copy_helper_block_323
+___destroy_helper_block_324
+-[AssetCacheLocatorService start]
+___33-[AssetCacheLocatorService start]_block_invoke
+___copy_helper_block_342
+___destroy_helper_block_343
+___33-[AssetCacheLocatorService start]_block_invoke346
+___copy_helper_block_349
+___destroy_helper_block_350
+-[AssetCacheLocatorService handleConnection:]
+___45-[AssetCacheLocatorService handleConnection:]_block_invoke
+___copy_helper_block_363
+___destroy_helper_block_364
+-[AssetCacheLocatorService handleEvent:forConnection:]
+-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]
+___64-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_392
+___destroy_helper_block_393
+___64-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]_block_invoke397
+___copy_helper_block_413
+___destroy_helper_block_414
+-[AssetCacheLocatorService handleRecentlySeenEvent:forConnection:tag:]
+___70-[AssetCacheLocatorService handleRecentlySeenEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_423
+___destroy_helper_block_424
+-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]
+___64-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_434
+___destroy_helper_block_435
+___64-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]_block_invoke446
+___copy_helper_block_447
+___destroy_helper_block_448
+___64-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]_block_invoke451
+___copy_helper_block_452
+___destroy_helper_block_453
+-[AssetCacheLocatorService makeSoftwareVersions]
+-[AssetCacheLocatorService networkChanged]
+___42-[AssetCacheLocatorService networkChanged]_block_invoke
+___copy_helper_block_514
+___destroy_helper_block_515
+-[AssetCacheLocatorService watchForNetworkChanges]
+_dynamicStoreChanged
+-[AssetCacheLocatorService isUsefulInaddr4:]
+-[AssetCacheLocatorService isUsefulInaddr6:]
+-[AssetCacheLocatorService isUsefulSockaddr4:]
+-[AssetCacheLocatorService isUsefulSockaddr6:]
+-[AssetCacheLocatorService stringFromInaddr4:]
+-[AssetCacheLocatorService stringFromInaddr6:]
+-[AssetCacheLocatorService stringFromMacAddr:]
+-[AssetCacheLocatorService identifierFromMacAddr:tag:]
+-[AssetCacheLocatorService stringFromSockaddr4:]
+-[AssetCacheLocatorService stringFromSockaddr6:]
+-[AssetCacheLocatorService stringFromSockaddrDL:]
+-[AssetCacheLocatorService stringFromSockaddrStorage:]
+-[AssetCacheLocatorService makeLocalAddresses:andGatewayIdentifiers:tag:]
+-[AssetCacheLocatorService safeString:length:forceHex:]
+-[AssetCacheLocatorService makeRangesFromDNSRecordNamed:withType:data:length:more:error:tag:]
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]
+___116-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_627
+___destroy_helper_block_628
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_639
+___destroy_helper_block_640
+___copy_helper_block_645
+___destroy_helper_block_646
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke666
+___copy_helper_block_667
+___destroy_helper_block_668
+-[AssetCacheLocatorService sanitizeRanges:fromSource:tag:]
+-[AssetCacheLocatorService makeBootTimeWithTag:]
+-[AssetCacheLocatorService loadDiskCacheWithTag:]
+-[AssetCacheLocatorService saveDiskCacheWithTag:]
+___49-[AssetCacheLocatorService saveDiskCacheWithTag:]_block_invoke
+___copy_helper_block_755
+___destroy_helper_block_756
+-[AssetCacheLocatorService updateDiskCacheRefreshTimerWithTag:]
+-[AssetCacheLocatorService cachedServersForNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService cachedEntriesCalled:withKey:entryKey:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService cacheServers:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheServersForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService uncacheEntriesCalled:withKey:forNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService anyCachedServersWithTag:]
+-[AssetCacheLocatorService uncacheAllServersWithTag:]
+-[AssetCacheLocatorService cachedDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheDNSPublicAddressRanges:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheRecentlySeen:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService cacheNotRecentlySeenForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService uncacheRecentlySeenForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cachedRecentlySeenForNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_844
+___destroy_helper_block_845
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke879
+___copy_helper_block_880
+___destroy_helper_block_881
+-[AssetCacheLocatorService parseLocateResponse:intoServers:validityInterval:error:tag:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___87-[AssetCacheLocatorService parseLocateResponse:intoServers:validityInterval:error:tag:]_block_invoke
+___copy_helper_block_903
+___destroy_helper_block_904
+-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_2
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_924
+___destroy_helper_block_925
+___copy_helper_block_928
+___destroy_helper_block_929
+___copy_helper_block_934
+___destroy_helper_block_935
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke950
+___copy_helper_block_963
+___destroy_helper_block_964
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke969
+___copy_helper_block_978
+___destroy_helper_block_979
+-[AssetCacheLocatorService doesServer:haveCapabilities:tag:]
+___60-[AssetCacheLocatorService doesServer:haveCapabilities:tag:]_block_invoke
+___copy_helper_block_987
+___destroy_helper_block_988
+-[AssetCacheLocatorService serversFromArray:withCapabilities:tag:]
+-[AssetCacheLocatorService cachedServerForAffinityID:tag:]
+-[AssetCacheLocatorService cacheServer:forAffinityID:tag:]
+-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke
+___copy_helper_block_1007
+___destroy_helper_block_1008
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke1010
+___copy_helper_block_1011
+___destroy_helper_block_1012
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke1030
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke_2
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_1055
+___destroy_helper_block_1056
+___copy_helper_block_1060
+___destroy_helper_block_1061
+___copy_helper_block_1063
+___destroy_helper_block_1064
+-[AssetCacheLocatorService uncacheAllAffinitiesWithTag:]
+-[AssetCacheLocatorService randomServerFromArray:tag:]
+-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_1081
+___destroy_helper_block_1082
+___copy_helper_block_1085
+___destroy_helper_block_1086
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke1089
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke_21109
+___copy_helper_block_1112
+___destroy_helper_block_1113
+___copy_helper_block_1116
+___destroy_helper_block_1117
+-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke
+___copy_helper_block_1126
+___destroy_helper_block_1127
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke1129
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke_2
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke_3
+___copy_helper_block_1135
+___destroy_helper_block_1136
+___copy_helper_block_1138
+___destroy_helper_block_1139
+___copy_helper_block_1141
+___destroy_helper_block_1142
+-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke
+___copy_helper_block_1151
+___destroy_helper_block_1152
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke1154
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_2
+___copy_helper_block_1161
+___destroy_helper_block_1162
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke1170
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_21173
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_3
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_4
+___copy_helper_block_1188
+___destroy_helper_block_1189
+___copy_helper_block_1194
+___destroy_helper_block_1195
+___copy_helper_block_1201
+___destroy_helper_block_1202
+___copy_helper_block_1204
+___destroy_helper_block_1205
+-[AssetCacheLocatorService recentlySeenCachingServerWithCallback:callbackQueue:tag:]
+___84-[AssetCacheLocatorService recentlySeenCachingServerWithCallback:callbackQueue:tag:]_block_invoke
+___84-[AssetCacheLocatorService recentlySeenCachingServerWithCallback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_1211
+___destroy_helper_block_1212
+___copy_helper_block_1214
+___destroy_helper_block_1215
+-[AssetCacheLocatorService importToLocalCachingServerAsURL:sourceFileHandle:sourceOffset:sourceLength:headers:callback:callbackQueue:tag:]
+___138-[AssetCacheLocatorService importToLocalCachingServerAsURL:sourceFileHandle:sourceOffset:sourceLength:headers:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_1225
+___destroy_helper_block_1226
+-[AssetCacheLocatorService importToCachingServerAsURL:sourcePath:sourceFileHandle:sourceOffset:sourceLength:headers:importStrategies:entitled:callback:callbackQueue:tag:]
+-[AssetCacheLocatorService connection:didFailWithError:]
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke_2
+___copy_helper_block_1254
+___destroy_helper_block_1255
+___copy_helper_block_1257
+___destroy_helper_block_1258
+-[AssetCacheLocatorService connection:willSendRequestForAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveData:]
+___54-[AssetCacheLocatorService connection:didReceiveData:]_block_invoke
+___copy_helper_block_1311
+___destroy_helper_block_1312
+-[AssetCacheLocatorService connection:didReceiveResponse:]
+___58-[AssetCacheLocatorService connection:didReceiveResponse:]_block_invoke
+___copy_helper_block_1316
+___destroy_helper_block_1317
+-[AssetCacheLocatorService connection:willCacheResponse:]
+-[AssetCacheLocatorService connectionDidFinishLoading:]
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_2
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_3
+___copy_helper_block_1337
+___destroy_helper_block_1338
+___copy_helper_block_1341
+___destroy_helper_block_1342
+___copy_helper_block_1344
+___destroy_helper_block_1345
+-[AssetCacheLocatorService logLevel]
+-[AssetCacheLocatorService setLogLevel:]
+-[AssetCacheLocatorService affinityQueryTimeout]
+-[AssetCacheLocatorService setAffinityQueryTimeout:]
+-[AssetCacheLocatorService concurrentDNSResolutions]
+-[AssetCacheLocatorService setConcurrentDNSResolutions:]
+-[AssetCacheLocatorService locateTimeout]
+-[AssetCacheLocatorService setLocateTimeout:]
+-[AssetCacheLocatorService dnsResolutionTimeout]
+-[AssetCacheLocatorService setDnsResolutionTimeout:]
+-[AssetCacheLocatorService locateURL]
+-[AssetCacheLocatorService setLocateURL:]
+-[AssetCacheLocatorService refreshValidityInterval]
+-[AssetCacheLocatorService setRefreshValidityInterval:]
+-[AssetCacheLocatorService skipEVCheck]
+-[AssetCacheLocatorService setSkipEVCheck:]
+-[AssetCacheLocatorService userCachePath]
+-[AssetCacheLocatorService setUserCachePath:]
+-[AssetCacheLocatorService userTempPath]
+-[AssetCacheLocatorService setUserTempPath:]
+-[AssetCacheLocatorService cacheDirPath]
+-[AssetCacheLocatorService setCacheDirPath:]
+-[AssetCacheLocatorService diskCachePlistPath]
+-[AssetCacheLocatorService setDiskCachePlistPath:]
+-[AssetCacheLocatorService localhostAddresses]
+-[AssetCacheLocatorService setLocalhostAddresses:]
+-[AssetCacheLocatorService serverDetailsTemplate]
+-[AssetCacheLocatorService setServerDetailsTemplate:]
+-[AssetCacheLocatorService diskCacheTemplate]
+-[AssetCacheLocatorService setDiskCacheTemplate:]
+-[AssetCacheLocatorService softwareVersions]
+-[AssetCacheLocatorService setSoftwareVersions:]
+-[AssetCacheLocatorService bootTime]
+-[AssetCacheLocatorService setBootTime:]
+-[AssetCacheLocatorService importSessionConfig]
+-[AssetCacheLocatorService setImportSessionConfig:]
+-[AssetCacheLocatorService querySessionConfig]
+-[AssetCacheLocatorService setQuerySessionConfig:]
+-[AssetCacheLocatorService initialized]
+-[AssetCacheLocatorService setInitialized:]
+-[AssetCacheLocatorService queue]
+-[AssetCacheLocatorService setQueue:]
+-[AssetCacheLocatorService listenerConnection]
+-[AssetCacheLocatorService setListenerConnection:]
+-[AssetCacheLocatorService diskCache]
+-[AssetCacheLocatorService setDiskCache:]
+-[AssetCacheLocatorService diskCacheRefreshTimer]
+-[AssetCacheLocatorService setDiskCacheRefreshTimer:]
+-[AssetCacheLocatorService diskCacheRefreshTimerResumed]
+-[AssetCacheLocatorService setDiskCacheRefreshTimerResumed:]
+-[AssetCacheLocatorService singleLocate]
+-[AssetCacheLocatorService setSingleLocate:]
+-[AssetCacheLocatorService singleLocateTag]
+-[AssetCacheLocatorService setSingleLocateTag:]
+-[AssetCacheLocatorService locateOpQueue]
+-[AssetCacheLocatorService setLocateOpQueue:]
+-[AssetCacheLocatorService localAddresses]
+-[AssetCacheLocatorService setLocalAddresses:]
+-[AssetCacheLocatorService gatewayIdentifiers]
+-[AssetCacheLocatorService setGatewayIdentifiers:]
+-[AssetCacheLocatorService cacheRefreshQueue]
+-[AssetCacheLocatorService setCacheRefreshQueue:]
+-[AssetCacheLocatorService cacheRefreshInProgress]
+-[AssetCacheLocatorService setCacheRefreshInProgress:]
+-[AssetCacheLocatorService affinityCache]
+-[AssetCacheLocatorService setAffinityCache:]
+-[AssetCacheLocatorService locateTag]
+-[AssetCacheLocatorService setLocateTag:]
+-[AssetCacheLocatorService locateCallback]
+-[AssetCacheLocatorService setLocateCallback:]
+-[AssetCacheLocatorService locateCallbackQueue]
+-[AssetCacheLocatorService setLocateCallbackQueue:]
+-[AssetCacheLocatorService locateConnection]
+-[AssetCacheLocatorService setLocateConnection:]
+-[AssetCacheLocatorService locateServerValidated]
+-[AssetCacheLocatorService setLocateServerValidated:]
+-[AssetCacheLocatorService locateResponseCode]
+-[AssetCacheLocatorService setLocateResponseCode:]
+-[AssetCacheLocatorService locateResponseData]
+-[AssetCacheLocatorService setLocateResponseData:]
+-[AssetCacheLocatorService .cxx_destruct]
+GCC_except_table31
+GCC_except_table78
+GCC_except_table117
+GCC_except_table139
+GCC_except_table146
+GCC_except_table177
+_kaclsAssetCacheXPCCID
+_kaclsEntitlementImport
+_makeLocalAddresses:andGatewayIdentifiers:tag:.nullmac
+_kaclsTXTRecordLabelMore
+_kaclsTXTRecordLabelPresentation
+_kaclsTXTRecordLabelNetwork
+___block_descriptor_tmp
+___block_descriptor_tmp236
+___block_descriptor_tmp319
+___block_descriptor_tmp326
+___block_descriptor_tmp345
+___block_descriptor_tmp351
+___block_descriptor_tmp365
+___block_descriptor_tmp394
+___block_descriptor_tmp416
+___block_descriptor_tmp426
+___block_descriptor_tmp436
+___block_descriptor_tmp449
+___block_descriptor_tmp454
+___block_descriptor_tmp516
+_rtax_names
+___block_descriptor_tmp629
+___block_descriptor_tmp642
+___block_descriptor_tmp647
+___block_descriptor_tmp669
+___block_descriptor_tmp757
+___block_descriptor_tmp847
+___block_descriptor_tmp882
+___block_descriptor_tmp907
+___block_descriptor_tmp927
+___block_descriptor_tmp931
+___block_descriptor_tmp937
+___block_descriptor_tmp966
+___block_descriptor_tmp980
+___block_descriptor_tmp990
+___block_descriptor_tmp1009
+___block_descriptor_tmp1013
+___block_descriptor_tmp1057
+___block_descriptor_tmp1062
+___block_descriptor_tmp1066
+___block_descriptor_tmp1084
+___block_descriptor_tmp1088
+___block_descriptor_tmp1115
+___block_descriptor_tmp1119
+___block_descriptor_tmp1128
+___block_descriptor_tmp1137
+___block_descriptor_tmp1140
+___block_descriptor_tmp1143
+___block_descriptor_tmp1153
+___block_descriptor_tmp1165
+___block_descriptor_tmp1172
+___block_literal_global
+___block_descriptor_tmp1191
+___block_descriptor_tmp1196
+___block_descriptor_tmp1203
+___block_descriptor_tmp1206
+___block_descriptor_tmp1213
+___block_descriptor_tmp1216
+___block_descriptor_tmp1227
+___block_descriptor_tmp1256
+___block_descriptor_tmp1259
+___block_descriptor_tmp1313
+___block_descriptor_tmp1318
+___block_descriptor_tmp1340
+___block_descriptor_tmp1343
+___block_descriptor_tmp1346
+_OBJC_IVAR_$_AssetCacheLocatorService._logLevel
+_OBJC_IVAR_$_AssetCacheLocatorService._affinityQueryTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._concurrentDNSResolutions
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._dnsResolutionTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._locateURL
+_OBJC_IVAR_$_AssetCacheLocatorService._refreshValidityInterval
+_OBJC_IVAR_$_AssetCacheLocatorService._skipEVCheck
+_OBJC_IVAR_$_AssetCacheLocatorService._userCachePath
+_OBJC_IVAR_$_AssetCacheLocatorService._userTempPath
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheDirPath
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCachePlistPath
+_OBJC_IVAR_$_AssetCacheLocatorService._localhostAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._serverDetailsTemplate
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheTemplate
+_OBJC_IVAR_$_AssetCacheLocatorService._softwareVersions
+_OBJC_IVAR_$_AssetCacheLocatorService._bootTime
+_OBJC_IVAR_$_AssetCacheLocatorService._importSessionConfig
+_OBJC_IVAR_$_AssetCacheLocatorService._querySessionConfig
+_OBJC_IVAR_$_AssetCacheLocatorService._initialized
+_OBJC_IVAR_$_AssetCacheLocatorService._queue
+_OBJC_IVAR_$_AssetCacheLocatorService._listenerConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCache
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimer
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimerResumed
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocate
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateOpQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._localAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._gatewayIdentifiers
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheRefreshQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheRefreshInProgress
+_OBJC_IVAR_$_AssetCacheLocatorService._affinityCache
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallback
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallbackQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._locateConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._locateServerValidated
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseCode
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseData
+_OBJC_CLASS_$_AssetCacheLocatorService
+_OBJC_METACLASS_$_AssetCacheLocatorService
+_kaclsQueueIdentityKey
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/AssetCacheServices/AssetCacheServices-14/AssetCacheLocatorService/
+misc.m
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/Objects-normal/armv7s/misc.o
+_logLevelByName
+_logWithTag
+_createTaggedError
+_acls_nsearch_notld
+_xpcEventDescription
+_gLogLevel
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/DerivedSources/
+AssetCacheLocatorService_vers.c
+/Library/Caches/com.apple.xbs/Binaries/AssetCacheServices/AssetCacheServices-14~192/Objects/AssetCacheServices.build/iOS AssetCacheLocatorService.build/Objects-normal/armv7s/AssetCacheLocatorService_vers.o
+_AssetCacheLocatorServiceVersionString
+_AssetCacheLocatorServiceVersionNumber
+-[ACLSTypeVerifier initWithTemplate:]
+-[ACLSTypeVerifier verify:name:tag:]
+-[ACLSTypeVerifier sanitize:tag:]
+-[ACLSTypeVerifier verify:name:withTemplate:tag:]
+___49-[ACLSTypeVerifier verify:name:withTemplate:tag:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___49-[ACLSTypeVerifier verify:name:withTemplate:tag:]_block_invoke36
+___copy_helper_block_39
+___destroy_helper_block_40
+-[ACLSTypeVerifier sanitize:withTemplate:tag:]
+___46-[ACLSTypeVerifier sanitize:withTemplate:tag:]_block_invoke
+___copy_helper_block_54
+___destroy_helper_block_55
+___46-[ACLSTypeVerifier sanitize:withTemplate:tag:]_block_invoke60
+___copy_helper_block_63
+___destroy_helper_block_64
+-[ACLSTypeVerifier template]
+-[ACLSTypeVerifier setTemplate:]
+-[ACLSTypeVerifier .cxx_destruct]
+-[ACLSImportDelegate initWithFileHandle:fileOffset:length:callback:callbackQueue:tag:]
+-[ACLSImportDelegate URLSession:didReceiveChallenge:completionHandler:]
+-[ACLSImportDelegate URLSession:task:didReceiveChallenge:completionHandler:]
+-[ACLSImportDelegate URLSession:task:needNewBodyStream:]
+-[ACLSImportDelegate URLSession:task:didCompleteWithError:]
+___59-[ACLSImportDelegate URLSession:task:didCompleteWithError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ACLSImportDelegate URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[ACLSImportDelegate URLSession:dataTask:willCacheResponse:completionHandler:]
+-[ACLSImportDelegate fileHandle]
+-[ACLSImportDelegate setFileHandle:]
+-[ACLSImportDelegate fileOffset]
+-[ACLSImportDelegate setFileOffset:]
+-[ACLSImportDelegate length]
+-[ACLSImportDelegate setLength:]
+-[ACLSImportDelegate callback]
+-[ACLSImportDelegate setCallback:]
+-[ACLSImportDelegate callbackQueue]
+-[ACLSImportDelegate setCallbackQueue:]
+-[ACLSImportDelegate tag]
+-[ACLSImportDelegate setTag:]
+-[ACLSImportDelegate responseCode]
+-[ACLSImportDelegate setResponseCode:]
+-[ACLSImportDelegate .cxx_destruct]
+-[ACLSFileHandleInputStream initWithFileHandle:fileOffset:length:]
+-[ACLSFileHandleInputStream open]
+-[ACLSFileHandleInputStream close]
+-[ACLSFileHandleInputStream streamStatus]
+-[ACLSFileHandleInputStream streamError]
+-[ACLSFileHandleInputStream _scheduleInCFRunLoop:forMode:]
+-[ACLSFileHandleInputStream _setCFClientFlags:callback:context:]
+-[ACLSFileHandleInputStream read:maxLength:]
+-[ACLSFileHandleInputStream getBuffer:length:]
+-[ACLSFileHandleInputStream hasBytesAvailable]
+-[ACLSFileHandleInputStream fileHandle]
+-[ACLSFileHandleInputStream setFileHandle:]
+-[ACLSFileHandleInputStream fileOffset]
+-[ACLSFileHandleInputStream setFileOffset:]
+-[ACLSFileHandleInputStream fileEndOffset]
+-[ACLSFileHandleInputStream setFileEndOffset:]
+-[ACLSFileHandleInputStream status]
+-[ACLSFileHandleInputStream setStatus:]
+-[ACLSFileHandleInputStream .cxx_destruct]
+-[AssetCacheLocatorService init]
+___32-[AssetCacheLocatorService init]_block_invoke
+___32-[AssetCacheLocatorService init]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_234
+___destroy_helper_block_235
+-[AssetCacheLocatorService sandbox]
+-[AssetCacheLocatorService amRunningOnMyQueue]
+-[AssetCacheLocatorService amRunningInMySingleLocate:]
+-[AssetCacheLocatorService objectWithError:]
+-[AssetCacheLocatorService errorWithObject:tag:]
+-[AssetCacheLocatorService NSObjectFromXPCObject:]
+___50-[AssetCacheLocatorService NSObjectFromXPCObject:]_block_invoke
+___copy_helper_block_316
+___destroy_helper_block_317
+___50-[AssetCacheLocatorService NSObjectFromXPCObject:]_block_invoke320
+___copy_helper_block_323
+___destroy_helper_block_324
+-[AssetCacheLocatorService start]
+___33-[AssetCacheLocatorService start]_block_invoke
+___copy_helper_block_342
+___destroy_helper_block_343
+___33-[AssetCacheLocatorService start]_block_invoke346
+___copy_helper_block_349
+___destroy_helper_block_350
+-[AssetCacheLocatorService handleConnection:]
+___45-[AssetCacheLocatorService handleConnection:]_block_invoke
+___copy_helper_block_363
+___destroy_helper_block_364
+-[AssetCacheLocatorService handleEvent:forConnection:]
+-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]
+___64-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_392
+___destroy_helper_block_393
+___64-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]_block_invoke397
+___copy_helper_block_413
+___destroy_helper_block_414
+-[AssetCacheLocatorService handleRecentlySeenEvent:forConnection:tag:]
+___70-[AssetCacheLocatorService handleRecentlySeenEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_423
+___destroy_helper_block_424
+-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]
+___64-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_434
+___destroy_helper_block_435
+___64-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]_block_invoke446
+___copy_helper_block_447
+___destroy_helper_block_448
+___64-[AssetCacheLocatorService handleImportEvent:forConnection:tag:]_block_invoke451
+___copy_helper_block_452
+___destroy_helper_block_453
+-[AssetCacheLocatorService makeSoftwareVersions]
+-[AssetCacheLocatorService networkChanged]
+___42-[AssetCacheLocatorService networkChanged]_block_invoke
+___copy_helper_block_514
+___destroy_helper_block_515
+-[AssetCacheLocatorService watchForNetworkChanges]
+_dynamicStoreChanged
+-[AssetCacheLocatorService isUsefulInaddr4:]
+-[AssetCacheLocatorService isUsefulInaddr6:]
+-[AssetCacheLocatorService isUsefulSockaddr4:]
+-[AssetCacheLocatorService isUsefulSockaddr6:]
+-[AssetCacheLocatorService stringFromInaddr4:]
+-[AssetCacheLocatorService stringFromInaddr6:]
+-[AssetCacheLocatorService stringFromMacAddr:]
+-[AssetCacheLocatorService identifierFromMacAddr:tag:]
+-[AssetCacheLocatorService stringFromSockaddr4:]
+-[AssetCacheLocatorService stringFromSockaddr6:]
+-[AssetCacheLocatorService stringFromSockaddrDL:]
+-[AssetCacheLocatorService stringFromSockaddrStorage:]
+-[AssetCacheLocatorService makeLocalAddresses:andGatewayIdentifiers:tag:]
+-[AssetCacheLocatorService safeString:length:forceHex:]
+-[AssetCacheLocatorService makeRangesFromDNSRecordNamed:withType:data:length:more:error:tag:]
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]
+___116-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_627
+___destroy_helper_block_628
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_639
+___destroy_helper_block_640
+___copy_helper_block_645
+___destroy_helper_block_646
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke666
+___copy_helper_block_667
+___destroy_helper_block_668
+-[AssetCacheLocatorService sanitizeRanges:fromSource:tag:]
+-[AssetCacheLocatorService makeBootTimeWithTag:]
+-[AssetCacheLocatorService loadDiskCacheWithTag:]
+-[AssetCacheLocatorService saveDiskCacheWithTag:]
+___49-[AssetCacheLocatorService saveDiskCacheWithTag:]_block_invoke
+___copy_helper_block_755
+___destroy_helper_block_756
+-[AssetCacheLocatorService updateDiskCacheRefreshTimerWithTag:]
+-[AssetCacheLocatorService cachedServersForNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService cachedEntriesCalled:withKey:entryKey:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService cacheServers:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheServersForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService uncacheEntriesCalled:withKey:forNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService anyCachedServersWithTag:]
+-[AssetCacheLocatorService uncacheAllServersWithTag:]
+-[AssetCacheLocatorService cachedDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheDNSPublicAddressRanges:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheRecentlySeen:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService cacheNotRecentlySeenForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService uncacheRecentlySeenForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cachedRecentlySeenForNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_844
+___destroy_helper_block_845
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke879
+___copy_helper_block_880
+___destroy_helper_block_881
+-[AssetCacheLocatorService parseLocateResponse:intoServers:validityInterval:error:tag:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___87-[AssetCacheLocatorService parseLocateResponse:intoServers:validityInterval:error:tag:]_block_invoke
+___copy_helper_block_903
+___destroy_helper_block_904
+-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_2
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_924
+___destroy_helper_block_925
+___copy_helper_block_928
+___destroy_helper_block_929
+___copy_helper_block_934
+___destroy_helper_block_935
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke950
+___copy_helper_block_963
+___destroy_helper_block_964
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke969
+___copy_helper_block_978
+___destroy_helper_block_979
+-[AssetCacheLocatorService doesServer:haveCapabilities:tag:]
+___60-[AssetCacheLocatorService doesServer:haveCapabilities:tag:]_block_invoke
+___copy_helper_block_987
+___destroy_helper_block_988
+-[AssetCacheLocatorService serversFromArray:withCapabilities:tag:]
+-[AssetCacheLocatorService cachedServerForAffinityID:tag:]
+-[AssetCacheLocatorService cacheServer:forAffinityID:tag:]
+-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke
+___copy_helper_block_1007
+___destroy_helper_block_1008
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke1010
+___copy_helper_block_1011
+___destroy_helper_block_1012
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke1030
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke_2
+___113-[AssetCacheLocatorService queryServersFromArray:forAffinityID:withTimeout:callbackWithServer:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_1055
+___destroy_helper_block_1056
+___copy_helper_block_1060
+___destroy_helper_block_1061
+___copy_helper_block_1063
+___destroy_helper_block_1064
+-[AssetCacheLocatorService uncacheAllAffinitiesWithTag:]
+-[AssetCacheLocatorService randomServerFromArray:tag:]
+-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_1081
+___destroy_helper_block_1082
+___copy_helper_block_1085
+___destroy_helper_block_1086
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke1089
+___120-[AssetCacheLocatorService locateCachingServerWithTimeout:capabilities:affinityID:quickMiss:callback:callbackQueue:tag:]_block_invoke_21109
+___copy_helper_block_1112
+___destroy_helper_block_1113
+___copy_helper_block_1116
+___destroy_helper_block_1117
+-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke
+___copy_helper_block_1126
+___destroy_helper_block_1127
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke1129
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke_2
+___102-[AssetCacheLocatorService relocateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:tag:]_block_invoke_3
+___copy_helper_block_1135
+___destroy_helper_block_1136
+___copy_helper_block_1138
+___destroy_helper_block_1139
+___copy_helper_block_1141
+___destroy_helper_block_1142
+-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke
+___copy_helper_block_1151
+___destroy_helper_block_1152
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke1154
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_2
+___copy_helper_block_1161
+___destroy_helper_block_1162
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke1170
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_21173
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_3
+___111-[AssetCacheLocatorService slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:callback:tag:]_block_invoke_4
+___copy_helper_block_1188
+___destroy_helper_block_1189
+___copy_helper_block_1194
+___destroy_helper_block_1195
+___copy_helper_block_1201
+___destroy_helper_block_1202
+___copy_helper_block_1204
+___destroy_helper_block_1205
+-[AssetCacheLocatorService recentlySeenCachingServerWithCallback:callbackQueue:tag:]
+___84-[AssetCacheLocatorService recentlySeenCachingServerWithCallback:callbackQueue:tag:]_block_invoke
+___84-[AssetCacheLocatorService recentlySeenCachingServerWithCallback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_1211
+___destroy_helper_block_1212
+___copy_helper_block_1214
+___destroy_helper_block_1215
+-[AssetCacheLocatorService importToLocalCachingServerAsURL:sourceFileHandle:sourceOffset:sourceLength:headers:callback:callbackQueue:tag:]
+___138-[AssetCacheLocatorService importToLocalCachingServerAsURL:sourceFileHandle:sourceOffset:sourceLength:headers:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_1225
+___destroy_helper_block_1226
+-[AssetCacheLocatorService importToCachingServerAsURL:sourcePath:sourceFileHandle:sourceOffset:sourceLength:headers:importStrategies:entitled:callback:callbackQueue:tag:]
+-[AssetCacheLocatorService connection:didFailWithError:]
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke_2
+___copy_helper_block_1254
+___destroy_helper_block_1255
+___copy_helper_block_1257
+___destroy_helper_block_1258
+-[AssetCacheLocatorService connection:willSendRequestForAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveData:]
+___54-[AssetCacheLocatorService connection:didReceiveData:]_block_invoke
+___copy_helper_block_1311
+___destroy_helper_block_1312
+-[AssetCacheLocatorService connection:didReceiveResponse:]
+___58-[AssetCacheLocatorService connection:didReceiveResponse:]_block_invoke
+___copy_helper_block_1316
+___destroy_helper_block_1317
+-[AssetCacheLocatorService connection:willCacheResponse:]
+-[AssetCacheLocatorService connectionDidFinishLoading:]
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_2
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_3
+___copy_helper_block_1337
+___destroy_helper_block_1338
+___copy_helper_block_1341
+___destroy_helper_block_1342
+___copy_helper_block_1344
+___destroy_helper_block_1345
+-[AssetCacheLocatorService logLevel]
+-[AssetCacheLocatorService setLogLevel:]
+-[AssetCacheLocatorService affinityQueryTimeout]
+-[AssetCacheLocatorService setAffinityQueryTimeout:]
+-[AssetCacheLocatorService concurrentDNSResolutions]
+-[AssetCacheLocatorService setConcurrentDNSResolutions:]
+-[AssetCacheLocatorService locateTimeout]
+-[AssetCacheLocatorService setLocateTimeout:]
+-[AssetCacheLocatorService dnsResolutionTimeout]
+-[AssetCacheLocatorService setDnsResolutionTimeout:]
+-[AssetCacheLocatorService locateURL]
+-[AssetCacheLocatorService setLocateURL:]
+-[AssetCacheLocatorService refreshValidityInterval]
+-[AssetCacheLocatorService setRefreshValidityInterval:]
+-[AssetCacheLocatorService skipEVCheck]
+-[AssetCacheLocatorService setSkipEVCheck:]
+-[AssetCacheLocatorService userCachePath]
+-[AssetCacheLocatorService setUserCachePath:]
+-[AssetCacheLocatorService userTempPath]
+-[AssetCacheLocatorService setUserTempPath:]
+-[AssetCacheLocatorService cacheDirPath]
+-[AssetCacheLocatorService setCacheDirPath:]
+-[AssetCacheLocatorService diskCachePlistPath]
+-[AssetCacheLocatorService setDiskCachePlistPath:]
+-[AssetCacheLocatorService localhostAddresses]
+-[AssetCacheLocatorService setLocalhostAddresses:]
+-[AssetCacheLocatorService serverDetailsTemplate]
+-[AssetCacheLocatorService setServerDetailsTemplate:]
+-[AssetCacheLocatorService diskCacheTemplate]
+-[AssetCacheLocatorService setDiskCacheTemplate:]
+-[AssetCacheLocatorService softwareVersions]
+-[AssetCacheLocatorService setSoftwareVersions:]
+-[AssetCacheLocatorService bootTime]
+-[AssetCacheLocatorService setBootTime:]
+-[AssetCacheLocatorService importSessionConfig]
+-[AssetCacheLocatorService setImportSessionConfig:]
+-[AssetCacheLocatorService querySessionConfig]
+-[AssetCacheLocatorService setQuerySessionConfig:]
+-[AssetCacheLocatorService initialized]
+-[AssetCacheLocatorService setInitialized:]
+-[AssetCacheLocatorService queue]
+-[AssetCacheLocatorService setQueue:]
+-[AssetCacheLocatorService listenerConnection]
+-[AssetCacheLocatorService setListenerConnection:]
+-[AssetCacheLocatorService diskCache]
+-[AssetCacheLocatorService setDiskCache:]
+-[AssetCacheLocatorService diskCacheRefreshTimer]
+-[AssetCacheLocatorService setDiskCacheRefreshTimer:]
+-[AssetCacheLocatorService diskCacheRefreshTimerResumed]
+-[AssetCacheLocatorService setDiskCacheRefreshTimerResumed:]
+-[AssetCacheLocatorService singleLocate]
+-[AssetCacheLocatorService setSingleLocate:]
+-[AssetCacheLocatorService singleLocateTag]
+-[AssetCacheLocatorService setSingleLocateTag:]
+-[AssetCacheLocatorService locateOpQueue]
+-[AssetCacheLocatorService setLocateOpQueue:]
+-[AssetCacheLocatorService localAddresses]
+-[AssetCacheLocatorService setLocalAddresses:]
+-[AssetCacheLocatorService gatewayIdentifiers]
+-[AssetCacheLocatorService setGatewayIdentifiers:]
+-[AssetCacheLocatorService cacheRefreshQueue]
+-[AssetCacheLocatorService setCacheRefreshQueue:]
+-[AssetCacheLocatorService cacheRefreshInProgress]
+-[AssetCacheLocatorService setCacheRefreshInProgress:]
+-[AssetCacheLocatorService affinityCache]
+-[AssetCacheLocatorService setAffinityCache:]
+-[AssetCacheLocatorService locateTag]
+-[AssetCacheLocatorService setLocateTag:]
+-[AssetCacheLocatorService locateCallback]
+-[AssetCacheLocatorService setLocateCallback:]
+-[AssetCacheLocatorService locateCallbackQueue]
+-[AssetCacheLocatorService setLocateCallbackQueue:]
+-[AssetCacheLocatorService locateConnection]
+-[AssetCacheLocatorService setLocateConnection:]
+-[AssetCacheLocatorService locateServerValidated]
+-[AssetCacheLocatorService setLocateServerValidated:]
+-[AssetCacheLocatorService locateResponseCode]
+-[AssetCacheLocatorService setLocateResponseCode:]
+-[AssetCacheLocatorService locateResponseData]
+-[AssetCacheLocatorService setLocateResponseData:]
+-[AssetCacheLocatorService .cxx_destruct]
+_objc_autoreleaseReturnValue$shim
+__Block_object_assign$shim
+__Block_object_dispose$shim
+_objc_release$shim
+_objc_retain$shim
+_objc_getProperty$shim
+_objc_setProperty_atomic$shim
+_objc_storeStrong$shim
+_objc_setProperty_atomic_copy$shim
+_objc_msgSend$shim
+ stub helpers
+GCC_except_table3
+GCC_except_table31
+GCC_except_table78
+GCC_except_table117
+GCC_except_table139
+GCC_except_table146
+GCC_except_table177
+_kaclsAssetCacheXPCCID
+_kaclsEntitlementImport
+_makeLocalAddresses:andGatewayIdentifiers:tag:.nullmac
+_kaclsTXTRecordLabelMore
+_kaclsTXTRecordLabelPresentation
+_kaclsTXTRecordLabelNetwork
+___block_descriptor_tmp
+___block_descriptor_tmp42
+___block_descriptor_tmp56
+___block_descriptor_tmp65
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp236
+___block_descriptor_tmp319
+___block_descriptor_tmp326
+___block_descriptor_tmp345
+___block_descriptor_tmp351
+___block_descriptor_tmp365
+___block_descriptor_tmp394
+___block_descriptor_tmp416
+___block_descriptor_tmp426
+___block_descriptor_tmp436
+___block_descriptor_tmp449
+___block_descriptor_tmp454
+___block_descriptor_tmp516
+_rtax_names
+___block_descriptor_tmp629
+___block_descriptor_tmp642
+___block_descriptor_tmp647
+___block_descriptor_tmp669
+___block_descriptor_tmp757
+___block_descriptor_tmp847
+___block_descriptor_tmp882
+___block_descriptor_tmp907
+___block_descriptor_tmp927
+___block_descriptor_tmp931
+___block_descriptor_tmp937
+___block_descriptor_tmp966
+___block_descriptor_tmp980
+___block_descriptor_tmp990
+___block_descriptor_tmp1009
+___block_descriptor_tmp1013
+___block_descriptor_tmp1057
+___block_descriptor_tmp1062
+___block_descriptor_tmp1066
+___block_descriptor_tmp1084
+___block_descriptor_tmp1088
+___block_descriptor_tmp1115
+___block_descriptor_tmp1119
+___block_descriptor_tmp1128
+___block_descriptor_tmp1137
+___block_descriptor_tmp1140
+___block_descriptor_tmp1143
+___block_descriptor_tmp1153
+___block_descriptor_tmp1165
+___block_descriptor_tmp1172
+___block_literal_global
+___block_descriptor_tmp1191
+___block_descriptor_tmp1196
+___block_descriptor_tmp1203
+___block_descriptor_tmp1206
+___block_descriptor_tmp1213
+___block_descriptor_tmp1216
+___block_descriptor_tmp1227
+___block_descriptor_tmp1256
+___block_descriptor_tmp1259
+___block_descriptor_tmp1313
+___block_descriptor_tmp1318
+___block_descriptor_tmp1340
+___block_descriptor_tmp1343
+___block_descriptor_tmp1346
+_OBJC_IVAR_$_ACLSTypeVerifier._template
+_OBJC_IVAR_$_ACLSImportDelegate._fileHandle
+_OBJC_IVAR_$_ACLSImportDelegate._fileOffset
+_OBJC_IVAR_$_ACLSImportDelegate._length
+_OBJC_IVAR_$_ACLSImportDelegate._callback
+_OBJC_IVAR_$_ACLSImportDelegate._callbackQueue
+_OBJC_IVAR_$_ACLSImportDelegate._tag
+_OBJC_IVAR_$_ACLSImportDelegate._responseCode
+_OBJC_IVAR_$_ACLSFileHandleInputStream._fileHandle
+_OBJC_IVAR_$_ACLSFileHandleInputStream._fileOffset
+_OBJC_IVAR_$_ACLSFileHandleInputStream._fileEndOffset
+_OBJC_IVAR_$_ACLSFileHandleInputStream._status
+_OBJC_IVAR_$_AssetCacheLocatorService._logLevel
+_OBJC_IVAR_$_AssetCacheLocatorService._affinityQueryTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._concurrentDNSResolutions
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._dnsResolutionTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._locateURL
+_OBJC_IVAR_$_AssetCacheLocatorService._refreshValidityInterval
+_OBJC_IVAR_$_AssetCacheLocatorService._skipEVCheck
+_OBJC_IVAR_$_AssetCacheLocatorService._userCachePath
+_OBJC_IVAR_$_AssetCacheLocatorService._userTempPath
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheDirPath
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCachePlistPath
+_OBJC_IVAR_$_AssetCacheLocatorService._localhostAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._serverDetailsTemplate
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheTemplate
+_OBJC_IVAR_$_AssetCacheLocatorService._softwareVersions
+_OBJC_IVAR_$_AssetCacheLocatorService._bootTime
+_OBJC_IVAR_$_AssetCacheLocatorService._importSessionConfig
+_OBJC_IVAR_$_AssetCacheLocatorService._querySessionConfig
+_OBJC_IVAR_$_AssetCacheLocatorService._initialized
+_OBJC_IVAR_$_AssetCacheLocatorService._queue
+_OBJC_IVAR_$_AssetCacheLocatorService._listenerConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCache
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimer
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimerResumed
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocate
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateOpQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._localAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._gatewayIdentifiers
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheRefreshQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheRefreshInProgress
+_OBJC_IVAR_$_AssetCacheLocatorService._affinityCache
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallback
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallbackQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._locateConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._locateServerValidated
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseCode
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseData
+_kaclsQueueIdentityKey
+_AssetCacheLocatorServiceVersionNumber
+_AssetCacheLocatorServiceVersionString
+_OBJC_CLASS_$_ACLSFileHandleInputStream
+_OBJC_CLASS_$_ACLSImportDelegate
+_OBJC_CLASS_$_ACLSTypeVerifier
+_OBJC_CLASS_$_AssetCacheLocatorService
+_OBJC_METACLASS_$_ACLSFileHandleInputStream
+_OBJC_METACLASS_$_ACLSImportDelegate
+_OBJC_METACLASS_$_ACLSTypeVerifier
+_OBJC_METACLASS_$_AssetCacheLocatorService
+__mh_execute_header
+_acls_nsearch_notld
+_createTaggedError
+_gLogLevel
+_kaclsTypeVerifierClassKey
+_kaclsTypeVerifierMandatoryKey
+_kaclsTypeVerifierTemplateKey
+_logLevelByName
+_logWithTag
+_main
+_xpcEventDescription
+_CC_SHA256_Final
+_CC_SHA256_Init
+_CC_SHA256_Update
+_CFArrayAppendValue
+_CFArrayCreateMutable
+_CFCopyDescription
+_CFDictionaryGetValue
+_CFPreferencesCopyAppValue
+_CFPreferencesGetAppBooleanValue
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopGetMain
+_NSFileModificationDate
+_NSFileProtectionCompleteUntilFirstUserAuthentication
+_NSFileProtectionKey
+_NSLocalizedDescriptionKey
+_NSLog
+_NSPOSIXErrorDomain
+_NSSearchPathForDirectoriesInDomains
+_NSStringFromClass
+_NSURLAuthenticationMethodServerTrust
+_NSURLErrorDomain
+_NSURLIsExcludedFromBackupKey
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSHTTPURLResponse
+_OBJC_CLASS_$_NSInputStream
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSMutableURLRequest
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLCache
+_OBJC_CLASS_$_NSURLConnection
+_OBJC_CLASS_$_NSURLCredential
+_OBJC_CLASS_$_NSURLSession
+_OBJC_CLASS_$_NSURLSessionConfiguration
+_OBJC_METACLASS_$_NSInputStream
+_OBJC_METACLASS_$_NSObject
+_SCDynamicStoreCreate
+_SCDynamicStoreCreateRunLoopSource
+_SCDynamicStoreKeyCreateNetworkGlobalEntity
+_SCDynamicStoreKeyCreateNetworkInterfaceEntity
+_SCDynamicStoreSetDispatchQueue
+_SCDynamicStoreSetNotificationKeys
+_SecTrustCopyResult
+_SecTrustEvaluate
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_SjLj_Register
+__Unwind_SjLj_Resume
+__Unwind_SjLj_Unregister
+___CFConstantStringClassReference
+___NSArray0__
+___NSDictionary0__
+___assert_rtn
+___error
+___fixdfdi
+___memcpy_chk
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___strlcpy_chk
+__dispatch_source_type_timer
+__objc_empty_cache
+__res_9_h_errno_set
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_error_termination_imminent
+__xpc_type_array
+__xpc_type_bool
+__xpc_type_connection
+__xpc_type_dictionary
+__xpc_type_double
+__xpc_type_error
+__xpc_type_int64
+__xpc_type_string
+__xpc_type_uint64
+_arc4random_uniform
+_calloc
+_confstr
+_dispatch_async
+_dispatch_get_current_queue
+_dispatch_get_global_queue
+_dispatch_get_specific
+_dispatch_group_create
+_dispatch_group_enter
+_dispatch_group_leave
+_dispatch_group_wait
+_dispatch_queue_create
+_dispatch_queue_get_label
+_dispatch_queue_set_specific
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_source_create
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_suspend
+_dispatch_sync
+_dispatch_time
+_exit
+_free
+_freeifaddrs
+_getifaddrs
+_gettimeofday
+_hstrerror
+_if_indextoname
+_inet_ntop
+_inet_pton
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_kSCCompAnyRegex
+_kSCDynamicStoreDomainState
+_kSCEntNetIPv4
+_kSCEntNetIPv6
+_kSecTrustExtendedValidation
+_kSecTrustOrganizationName
+_malloc
+_memcmp
+_memcpy
+_memset
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_copyStruct
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_storeStrong
+_pread
+_realloc
+_realpath$DARWIN_EXTSN
+_res_9_ndestroy
+_res_9_ninit
+_res_9_nquerydomain
+_res_9_ns_initparse
+_res_9_ns_parserr
+_sandbox_free_error
+_sandbox_init_with_parameters
+_strcasecmp
+_strchr
+_strcmp
+_strerror
+_strlen
+_strsep
+_sysctl
+_xpc_array_apply
+_xpc_bool_get_value
+_xpc_connection_cancel
+_xpc_connection_copy_entitlement_value
+_xpc_connection_create_mach_service
+_xpc_connection_get_euid
+_xpc_connection_get_pid
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_set_event_handler
+_xpc_dictionary_apply
+_xpc_dictionary_create
+_xpc_dictionary_create_reply
+_xpc_dictionary_dup_fd
+_xpc_dictionary_get_bool
+_xpc_dictionary_get_int64
+_xpc_dictionary_get_string
+_xpc_dictionary_get_uint64
+_xpc_dictionary_get_value
+_xpc_dictionary_set_bool
+_xpc_dictionary_set_double
+_xpc_dictionary_set_int64
+_xpc_dictionary_set_string
+_xpc_dictionary_set_value
+_xpc_double_get_value
+_xpc_get_type
+_xpc_int64_get_value
+_xpc_set_idle_handler
+_xpc_string_get_string_ptr
+_xpc_uint64_get_value
+dyld_stub_binder

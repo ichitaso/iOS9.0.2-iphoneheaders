@@ -1,0 +1,2 @@
+#import <SessionTrackerAppSettings/HPRFSessionTrackerPaceSettingViewController.h>
+#import <SessionTrackerAppSettings/HPRFSessionTrackerAppSettingsController.h>

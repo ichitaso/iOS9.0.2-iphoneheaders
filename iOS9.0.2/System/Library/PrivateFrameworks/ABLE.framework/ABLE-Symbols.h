@@ -1,0 +1,1289 @@
+-[ABLEBSMPluginMonitor initWithSession:]
+___40-[ABLEBSMPluginMonitor initWithSession:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ABLEBSMPluginMonitor dealloc]
+-[ABLEBSMPluginMonitor handlePluginEventRaw:]
+-[ABLEBSMPluginMonitor batteryLevelsAtSomeDates:]
+-[ABLEBSMPluginMonitor batteryLevelsAtDates:]
+-[ABLEBSMPluginMonitor pluginsBetween:and:]
+-[ABLEBSMPluginMonitor getHistoricalPluginEventsWithSession:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___61-[ABLEBSMPluginMonitor getHistoricalPluginEventsWithSession:]_block_invoke
+___copy_helper_block_98
+___destroy_helper_block_99
+___61-[ABLEBSMPluginMonitor getHistoricalPluginEventsWithSession:]_block_invoke111
+___copy_helper_block_122
+___destroy_helper_block_123
+___61-[ABLEBSMPluginMonitor getHistoricalPluginEventsWithSession:]_block_invoke125
+___copy_helper_block_128
+___destroy_helper_block_129
++[ABLEBSMPluginMonitor monitorWithSession:]
+___43+[ABLEBSMPluginMonitor monitorWithSession:]_block_invoke
+___copy_helper_block_134
+___destroy_helper_block_135
+-[ABLEBSMPluginMonitor slotFromDate:slotsInDay:]
+-[ABLEBSMPluginMonitor midnightToday:]
+-[ABLEBSMPluginMonitor addEquivalentSlotsFromSlot:toSet:]
+-[ABLEBSMPluginMonitor populateChargeTimes:forLastWeek:forYesterday:withDate:]
+___78-[ABLEBSMPluginMonitor populateChargeTimes:forLastWeek:forYesterday:withDate:]_block_invoke
+___copy_helper_block_147
+___destroy_helper_block_148
+-[ABLEBSMPluginMonitor closestDateFromSlots:withCurrentDate:andSlot:]
+-[ABLEBSMPluginMonitor temporalForecastAnyForHistoryWindow:atDate:]
+-[ABLEBSMPluginMonitor deviceInactivityTimeAfterDate:]
+-[ABLEBSMPluginMonitor predictedChargeTimeAfterDate:]
+-[ABLEBSMPluginMonitor averageLevelAtCharge]
+___44-[ABLEBSMPluginMonitor averageLevelAtCharge]_block_invoke
+___copy_helper_block_191
+___destroy_helper_block_192
+-[ABLEBSMPluginMonitor isValid]
+-[ABLEBSMPluginMonitor isPluggedIn]
+-[ABLEBSMPluginMonitor lastPluginDate]
+-[ABLEBSMPluginMonitor lastPluginLevel]
+-[ABLEBSMPluginMonitor lastUnplugDate]
+-[ABLEBSMPluginMonitor lastUnplugLevel]
+-[ABLEBSMPluginMonitor .cxx_destruct]
+-[ABLEMockCDAttribute initWithEndDate:]
+-[ABLEMockCDAttribute repeatedStatistic:forHistoryWindow:error:]
+-[ABLEMockCDAttribute statistic:forHistoryWindow:error:]
+-[ABLEMockCDAttribute endDate]
+-[ABLEMockCDAttribute setEndDate:]
+-[ABLEMockCDAttribute duetSampleData]
+-[ABLEMockCDAttribute setDuetSampleData:]
+-[ABLEMockCDAttribute .cxx_destruct]
+-[ABLEBONAdjustFromLevelController init]
+-[ABLEBONAdjustFromLevelController adjustBON:forLevel:]
+-[ABLEBONAdjustFromLevelController postAdjust]
+-[ABLEBONAdjustFromLevelController .cxx_destruct]
+-[ABLECoreData init]
+-[ABLECoreData saveContext:withDB:withCoordinator:]
+___51-[ABLECoreData saveContext:withDB:withCoordinator:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ABLECoreData removeFileAt:]
+-[ABLECoreData obliterateDatabasePath:dueToError:]
+-[ABLECoreData model]
+-[ABLECoreData createCoordinatorFromDatabasePath:]
+-[ABLECoreData newContextWithCoordinator:]
+-[ABLECoreData coordinator]
+-[ABLECoreData context]
+-[ABLECoreData saveEntries]
+-[ABLECoreData savePrediction:]
+___31-[ABLECoreData savePrediction:]_block_invoke
+___copy_helper_block_120
+___destroy_helper_block_121
+-[ABLECoreData savePredictedEvents:]
+___36-[ABLECoreData savePredictedEvents:]_block_invoke
+___copy_helper_block_125
+___destroy_helper_block_126
+-[ABLECoreData saveResponseData:]
+___33-[ABLECoreData saveResponseData:]_block_invoke
+___copy_helper_block_130
+___destroy_helper_block_131
+-[ABLECoreData cdModel]
+-[ABLECoreData cdcontext]
+-[ABLECoreData cdcoordinator]
+-[ABLECoreData .cxx_destruct]
+-[ABLEPredictionModelController initWithCoreDuetController:]
+-[ABLEPredictionModelController resetModel]
++[ABLEPredictionModelController defaultConfiguration]
+-[ABLEPredictionModelController updateConfiguration:]
+___53-[ABLEPredictionModelController updateConfiguration:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[ABLEPredictionModelController predictionVectorWithSession:date:config:]
+___73+[ABLEPredictionModelController predictionVectorWithSession:date:config:]_block_invoke
+___copy_helper_block_107
+___destroy_helper_block_108
+___73+[ABLEPredictionModelController predictionVectorWithSession:date:config:]_block_invoke119
+___73+[ABLEPredictionModelController predictionVectorWithSession:date:config:]_block_invoke_2
+___73+[ABLEPredictionModelController predictionVectorWithSession:date:config:]_block_invoke_3
+___73+[ABLEPredictionModelController predictionVectorWithSession:date:config:]_block_invoke_4
+-[ABLEPredictionModelController createPredictionForDateRaw:]
+___60-[ABLEPredictionModelController createPredictionForDateRaw:]_block_invoke
+___60-[ABLEPredictionModelController createPredictionForDateRaw:]_block_invoke_2
+___60-[ABLEPredictionModelController createPredictionForDateRaw:]_block_invoke_3
+___60-[ABLEPredictionModelController createPredictionForDateRaw:]_block_invoke_4
+-[ABLEPredictionModelController significantEventAtDate:]
+-[ABLEPredictionModelController getPredictionFromExistingPredictionForDate:]
+-[ABLEPredictionModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]
+___104-[ABLEPredictionModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke
+___copy_helper_block_252
+___destroy_helper_block_253
+-[ABLEPredictionModelController existsDataForPredictionUsingDay:andOffsetDays:]
+___79-[ABLEPredictionModelController existsDataForPredictionUsingDay:andOffsetDays:]_block_invoke
+___copy_helper_block_257
+___destroy_helper_block_258
+-[ABLEPredictionModelController existsDataForPredictionUsingDefaultOffsetsAndDay:]
+-[ABLEPredictionModelController currentState]
+___45-[ABLEPredictionModelController currentState]_block_invoke
+___45-[ABLEPredictionModelController currentState]_block_invoke_2
+___45-[ABLEPredictionModelController currentState]_block_invoke_3
+___45-[ABLEPredictionModelController currentState]_block_invoke_4
+___copy_helper_block_337
+___destroy_helper_block_338
+-[ABLEPredictionModelController valid]
+-[ABLEPredictionModelController setValid:]
+-[ABLEPredictionModelController expiryDate]
+-[ABLEPredictionModelController expires]
+-[ABLEPredictionModelController lifetime]
+-[ABLEPredictionModelController dayOffsets]
+-[ABLEPredictionModelController setDayOffsets:]
+-[ABLEPredictionModelController predictabilityOffset]
+-[ABLEPredictionModelController setPredictabilityOffset:]
+-[ABLEPredictionModelController enabled]
+-[ABLEPredictionModelController setEnabled:]
+-[ABLEPredictionModelController currentBON]
+-[ABLEPredictionModelController coreDuetController]
+-[ABLEPredictionModelController predictabilityController]
+-[ABLEPredictionModelController setPredictabilityController:]
+-[ABLEPredictionModelController predictionController]
+-[ABLEPredictionModelController setPredictionController:]
+-[ABLEPredictionModelController minimumValidCorrelation]
+-[ABLEPredictionModelController setMinimumValidCorrelation:]
+-[ABLEPredictionModelController predictionVector]
+-[ABLEPredictionModelController setPredictionVector:]
+-[ABLEPredictionModelController adjustedPredictionVector]
+-[ABLEPredictionModelController setAdjustedPredictionVector:]
+-[ABLEPredictionModelController predictionPriorDayVector]
+-[ABLEPredictionModelController setPredictionPriorDayVector:]
+-[ABLEPredictionModelController adjustedPredictionPriorDayVector]
+-[ABLEPredictionModelController setAdjustedPredictionPriorDayVector:]
+-[ABLEPredictionModelController todayActualVector]
+-[ABLEPredictionModelController setTodayActualVector:]
+-[ABLEPredictionModelController priorDay]
+-[ABLEPredictionModelController setPriorDay:]
+-[ABLEPredictionModelController samplePeriod]
+-[ABLEPredictionModelController setSamplePeriod:]
+-[ABLEPredictionModelController priorDayActualVector]
+-[ABLEPredictionModelController setPriorDayActualVector:]
+-[ABLEPredictionModelController predictionDate]
+-[ABLEPredictionModelController setPredictionDate:]
+-[ABLEPredictionModelController rsquaredForPriorDay]
+-[ABLEPredictionModelController setRsquaredForPriorDay:]
+-[ABLEPredictionModelController bonMap]
+-[ABLEPredictionModelController minimumRSquared]
+-[ABLEPredictionModelController setMinimumRSquared:]
+-[ABLEPredictionModelController softLanding]
+-[ABLEPredictionModelController setSoftLanding:]
+-[ABLEPredictionModelController softLandingDecayRate]
+-[ABLEPredictionModelController setSoftLandingDecayRate:]
+-[ABLEPredictionModelController softLandingMinimum]
+-[ABLEPredictionModelController setSoftLandingMinimum:]
+-[ABLEPredictionModelController softLandingMaximum]
+-[ABLEPredictionModelController setSoftLandingMaximum:]
+-[ABLEPredictionModelController .cxx_destruct]
+-[ABLEBSMRoutineMonitor initWithDefaults:]
+___42-[ABLEBSMRoutineMonitor initWithDefaults:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ABLEBSMRoutineMonitor tryToReenable]
+___38-[ABLEBSMRoutineMonitor tryToReenable]_block_invoke
+___copy_helper_block_30
+___destroy_helper_block_31
+-[ABLEBSMRoutineMonitor updateCommuteDistance:]
+-[ABLEBSMRoutineMonitor computeComputeDistance]
+___47-[ABLEBSMRoutineMonitor computeComputeDistance]_block_invoke
+___copy_helper_block_54
+___destroy_helper_block_55
++[ABLEBSMRoutineMonitor monitorWithDefaults:]
+___45+[ABLEBSMRoutineMonitor monitorWithDefaults:]_block_invoke
+___copy_helper_block_61
+___destroy_helper_block_62
+-[ABLEBSMRoutineMonitor isUserAt:]
+___34-[ABLEBSMRoutineMonitor isUserAt:]_block_invoke
+___copy_helper_block_75
+___destroy_helper_block_76
+-[ABLEBSMRoutineMonitor isUserAtHome]
+-[ABLEBSMRoutineMonitor isUserAtWork]
+-[ABLEBSMRoutineMonitor isUserTraveling]
+___40-[ABLEBSMRoutineMonitor isUserTraveling]_block_invoke
+___copy_helper_block_83
+___destroy_helper_block_84
+___40-[ABLEBSMRoutineMonitor isUserTraveling]_block_invoke89
+___40-[ABLEBSMRoutineMonitor isUserTraveling]_block_invoke_2
+___copy_helper_block_98
+___destroy_helper_block_99
+___copy_helper_block_103
+___destroy_helper_block_104
+-[ABLEBSMRoutineMonitor enabled]
+-[ABLEBSMRoutineMonitor .cxx_destruct]
+-[ABLEPredictabilityController initWithCoreDuetController:]
+-[ABLEPredictabilityController calculateCorrelationForDefaultDayOffsets]
+-[ABLEPredictabilityController calculateCorrelationForOneDay]
+-[ABLEPredictabilityController calculateCorrelationForYesterdayAndDayOffsets:]
+-[ABLEPredictabilityController calculateCorrelationForDay:andDayOffsets:]
+___73-[ABLEPredictabilityController calculateCorrelationForDay:andDayOffsets:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___73-[ABLEPredictabilityController calculateCorrelationForDay:andDayOffsets:]_block_invoke44
+___copy_helper_block_45
+___destroy_helper_block_46
+___73-[ABLEPredictabilityController calculateCorrelationForDay:andDayOffsets:]_block_invoke49
+___copy_helper_block_77
+___destroy_helper_block_78
+___73-[ABLEPredictabilityController calculateCorrelationForDay:andDayOffsets:]_block_invoke92
+-[ABLEPredictabilityController currentData]
+-[ABLEPredictabilityController setCurrentData:]
+-[ABLEPredictabilityController approximateMissingData]
+-[ABLEPredictabilityController setApproximateMissingData:]
+-[ABLEPredictabilityController dayOffsets]
+-[ABLEPredictabilityController setDayOffsets:]
+-[ABLEPredictabilityController rejectionThresholdForMissingData]
+-[ABLEPredictabilityController setRejectionThresholdForMissingData:]
+-[ABLEPredictabilityController coreDuetController]
+-[ABLEPredictabilityController .cxx_destruct]
+-[ABLEConstantModelController initWithConstant:]
+-[ABLEConstantModelController resetModel]
+-[ABLEConstantModelController significantEvent]
+-[ABLEConstantModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]
+___102-[ABLEConstantModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ABLEConstantModelController existsDataForPredictionUsingDay:andOffsetDays:]
+-[ABLEConstantModelController existsDataForPredictionUsingDefaultOffsetsAndDay:]
+-[ABLEConstantModelController valid]
+-[ABLEConstantModelController setValid:]
+-[ABLEConstantModelController constantValue]
++[ABLEBattery int64ForKey:Dict:]
++[ABLEBattery getBatteryPercentage]
+-[ABLEMockCDAttributeWithData init]
+-[ABLEMockCDAttributeWithData initWithTable:]
+-[ABLEMockCDAttributeWithData repeatedStatistic:forHistoryWindow:error:]
+-[ABLEMockCDAttributeWithData statistic:forHistoryWindow:error:]
+-[ABLEMockCDAttributeWithData data]
+-[ABLEMockCDAttributeWithData setData:]
+-[ABLEMockCDAttributeWithData .cxx_destruct]
+-[ABLEPredictionController initWithCoreDuetController:]
+-[ABLEPredictionController predictForDay:]
+-[ABLEPredictionController predictForDay:usingDayOffsets:andCoefficients:]
+___74-[ABLEPredictionController predictForDay:usingDayOffsets:andCoefficients:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___74-[ABLEPredictionController predictForDay:usingDayOffsets:andCoefficients:]_block_invoke35
+___copy_helper_block_40
+___destroy_helper_block_41
+___74-[ABLEPredictionController predictForDay:usingDayOffsets:andCoefficients:]_block_invoke47
+___copy_helper_block_50
+___destroy_helper_block_51
+___74-[ABLEPredictionController predictForDay:usingDayOffsets:andCoefficients:]_block_invoke66
+___74-[ABLEPredictionController predictForDay:usingDayOffsets:andCoefficients:]_block_invoke_2
+-[ABLEPredictionController currentData]
+-[ABLEPredictionController setCurrentData:]
+-[ABLEPredictionController approximateMissingData]
+-[ABLEPredictionController setApproximateMissingData:]
+-[ABLEPredictionController dayOffsets]
+-[ABLEPredictionController coefficients]
+-[ABLEPredictionController setCoefficients:]
+-[ABLEPredictionController rejectionThresholdForMissingData]
+-[ABLEPredictionController setRejectionThresholdForMissingData:]
+-[ABLEPredictionController coreDuetController]
+-[ABLEPredictionController .cxx_destruct]
++[ABLECoreDuetUtils replaceNanWithNullInArray:]
+___47+[ABLECoreDuetUtils replaceNanWithNullInArray:]_block_invoke
+___47+[ABLECoreDuetUtils replaceNanWithNullInArray:]_block_invoke_2
++[ABLECoreDuetUtils replaceNullWithNanInArray:]
+___47+[ABLECoreDuetUtils replaceNullWithNanInArray:]_block_invoke
++[ABLECoreDuetUtils makeAllTimeHistoryWindowWithRecurrencePeriod:]
++[ABLECoreDuetUtils makeHistoryWindowForDayDaysAgo:from:andRecurrencePeriod:]
++[ABLECoreDuetUtils makeHistoryWindowForWholeDayDaysAgo:from:]
++[ABLECoreDuetUtils makeHistoryWindowForDays:andRecurrencePeriod:]
++[ABLECoreDuetUtils makeAlignedHistoryWindowForMinutes:from:andRecurrencePeriod:]
++[ABLECoreDuetUtils makeAlignedHistoryWindowForMinutes:fromBefore:andRecurrencePeriod:]
++[ABLECoreDuetUtils makeHistoryWindowForMinutes:fromBefore:andRecurrencePeriod:]
++[ABLECoreDuetUtils makeAlignedHistoryWindowForMinutes:andRecurrencePeriod:]
++[ABLECoreDuetUtils generateDateArrayFromHistoryWindow:]
+-[ABLEGradientModelController initWithCoreDuetController:]
+-[ABLEGradientModelController defaultConfiguration]
+-[ABLEGradientModelController updateConfiguration:]
+___51-[ABLEGradientModelController updateConfiguration:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ABLEGradientModelController resetModel]
+-[ABLEGradientModelController valid]
+-[ABLEGradientModelController calculateShortGradientBONForDate:chargeLevel:]
+-[ABLEGradientModelController calculateShortGradientBONForDate:]
+___64-[ABLEGradientModelController calculateShortGradientBONForDate:]_block_invoke
+___copy_helper_block_81
+___destroy_helper_block_82
+-[ABLEGradientModelController significantEventAtDate:]
+___54-[ABLEGradientModelController significantEventAtDate:]_block_invoke
+-[ABLEGradientModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]
+___102-[ABLEGradientModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke
+___copy_helper_block_127
+___destroy_helper_block_128
+-[ABLEGradientModelController existsDataForPredictionUsingDay:andOffsetDays:]
+-[ABLEGradientModelController getBatteryDataForDate:asTable:]
+-[ABLEGradientModelController existsDataForPredictionUsingDefaultOffsetsAndDay:]
+___80-[ABLEGradientModelController existsDataForPredictionUsingDefaultOffsetsAndDay:]_block_invoke
+-[ABLEGradientModelController currentState]
+-[ABLEGradientModelController historyPeriodRequired]
+-[ABLEGradientModelController setHistoryPeriodRequired:]
+-[ABLEGradientModelController expiryDate]
+-[ABLEGradientModelController setExpiryDate:]
+-[ABLEGradientModelController expires]
+-[ABLEGradientModelController lifetime]
+-[ABLEGradientModelController recurrence]
+-[ABLEGradientModelController enabled]
+-[ABLEGradientModelController setEnabled:]
+-[ABLEGradientModelController currentBON]
+-[ABLEGradientModelController setCurrentBON:]
+-[ABLEGradientModelController currentShortBON]
+-[ABLEGradientModelController lastGradient]
+-[ABLEGradientModelController lastShortGradient]
+-[ABLEGradientModelController coreDuetController]
+-[ABLEGradientModelController gradient]
+-[ABLEGradientModelController configuration]
+-[ABLEGradientModelController setConfiguration:]
+-[ABLEGradientModelController lastData]
+-[ABLEGradientModelController setLastData:]
+-[ABLEGradientModelController lastShortData]
+-[ABLEGradientModelController setLastShortData:]
+-[ABLEGradientModelController lastDate]
+-[ABLEGradientModelController setLastDate:]
+-[ABLEGradientModelController .cxx_destruct]
+-[ABLEModelController init]
+-[ABLEModelController expires]
+-[ABLEModelController expiryDate]
+-[ABLEModelController enabled]
+-[ABLEModelController existsDataForPredictionUsingDay:andOffsetDays:]
+-[ABLEModelController existsDataForPredictionUsingDefaultOffsetsAndDay:]
+-[ABLEModelController resetModel]
+-[ABLEModelController significantEventAtDate:]
+-[ABLEModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]
+___94-[ABLEModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ABLEModelController expireImmediately]
+-[ABLEModelController currentState]
+-[ABLEModelController updateConfiguration:]
+-[ABLEModelController valid]
+-[ABLEModelController setValid:]
+-[ABLEModelController priority]
+-[ABLEModelController setPriority:]
+-[ABLECoreDuetController initWithCDSession:device:]
+-[ABLECoreDuetController useCoreDuetAttribute]
+-[ABLECoreDuetController makeAllTimeHistoryWindowWithRecurrencePeriod:]
+-[ABLECoreDuetController countBatteryDataInHistoryWindow:]
+-[ABLECoreDuetController countBatteryDataForDayDaysAgo:from:alignedTo:]
+-[ABLECoreDuetController getBatteryDataForMinutes:minutesAgo:from:alignedTo:asTable:]
+-[ABLECoreDuetController initWithMockCDAttribute:]
+-[ABLECoreDuetController makeNanVectorOfLength:]
+___48-[ABLECoreDuetController makeNanVectorOfLength:]_block_invoke
+-[ABLECoreDuetController getSanitizedBatteryDataForHistoryWindow:expectingResultsCount:error:]
+___94-[ABLECoreDuetController getSanitizedBatteryDataForHistoryWindow:expectingResultsCount:error:]_block_invoke
+-[ABLECoreDuetController getBatteryDataForAllTimeWithRecurrencePeriod:]
+-[ABLECoreDuetController getBatteryDataForDays:withRecurrencePeriod:]
+-[ABLECoreDuetController getBatteryDataForDayDaysAgo:from:withRecurrencePeriod:]
+-[ABLECoreDuetController getBatteryDataForDayFrom:withRecurrencePeriod:]
+-[ABLECoreDuetController getBatteryDataForMinutes:withRecurrencePeriod:]
+-[ABLECoreDuetController getBatteryLevelForDate:withWindowInMinutes:]
+-[ABLECoreDuetController session]
+-[ABLECoreDuetController device]
+-[ABLECoreDuetController batteryLevelAttribute]
+-[ABLECoreDuetController setBatteryLevelAttribute:]
+-[ABLECoreDuetController .cxx_destruct]
+-[ABLEDirectModelController init]
+-[ABLEDirectModelController updateConfiguration:]
+-[ABLEDirectModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]
+___100-[ABLEDirectModelController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ABLEDirectModelController existsDataForPredictionUsingDay:andOffsetDays:]
+-[ABLEDirectModelController existsDataForPredictionUsingDefaultOffsetsAndDay:]
+-[ABLEDirectModelController currentState]
+-[ABLEDirectModelController currentBON]
+-[ABLEDirectModelController directMap]
+-[ABLEDirectModelController .cxx_destruct]
+-[ABLEController initWithCoreDuetController:changeHandler:]
+___59-[ABLEController initWithCoreDuetController:changeHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___59-[ABLEController initWithCoreDuetController:changeHandler:]_block_invoke22
+___copy_helper_block_25
+___destroy_helper_block_26
+___59-[ABLEController initWithCoreDuetController:changeHandler:]_block_invoke101
+___copy_helper_block_104
+___destroy_helper_block_105
+___59-[ABLEController initWithCoreDuetController:changeHandler:]_block_invoke107
+___copy_helper_block_110
+___destroy_helper_block_111
+___59-[ABLEController initWithCoreDuetController:changeHandler:]_block_invoke114
+___copy_helper_block_115
+___destroy_helper_block_116
+___59-[ABLEController initWithCoreDuetController:changeHandler:]_block_invoke120
+___copy_helper_block_121
+___destroy_helper_block_122
+-[ABLEController initWithCDSession:device:changeHandler:]
+-[ABLEController gradientLong]
+-[ABLEController gradientShort]
++[ABLEController staticAppDefaults]
++[ABLEController appDefaults]
++[ABLEController resetConfiguration]
+___36+[ABLEController resetConfiguration]_block_invoke
+___copy_helper_block_242
+___destroy_helper_block_243
+-[ABLEController typeCheckAndFixConfiguration:]
+___47-[ABLEController typeCheckAndFixConfiguration:]_block_invoke
+___copy_helper_block_256
+___destroy_helper_block_257
+-[ABLEController updateConfigurationFromCoreDuet]
+-[ABLEController updateConfiguration]
+___37-[ABLEController updateConfiguration]_block_invoke
+___copy_helper_block_277
+___destroy_helper_block_278
+___37-[ABLEController updateConfiguration]_block_invoke307
+___37-[ABLEController updateConfiguration]_block_invoke_2
+___37-[ABLEController updateConfiguration]_block_invoke_3
+___copy_helper_block_339
+___destroy_helper_block_340
+___37-[ABLEController updateConfiguration]_block_invoke355
+___copy_helper_block_358
+___destroy_helper_block_359
+-[ABLEController updateTimerAndScheduleImmediately:]
+___52-[ABLEController updateTimerAndScheduleImmediately:]_block_invoke
+___copy_helper_block_375
+___destroy_helper_block_376
+-[ABLEController setSuspended:]
+___31-[ABLEController setSuspended:]_block_invoke
+___copy_helper_block_382
+___destroy_helper_block_383
+-[ABLEController suspended]
+-[ABLEController getModelMode]
+-[ABLEController getChargeModeOverride]
+-[ABLEController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]
+___89-[ABLEController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke
+___copy_helper_block_442
+___destroy_helper_block_443
+___89-[ABLEController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke446
+___89-[ABLEController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke_2
+___copy_helper_block_461
+___destroy_helper_block_462
+___89-[ABLEController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke477
+___copy_helper_block_478
+___destroy_helper_block_479
+___89-[ABLEController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke485
+___copy_helper_block_504
+___destroy_helper_block_505
+___copy_helper_block_507
+___destroy_helper_block_508
+___89-[ABLEController calculateBONForCurrentLevel:andChargeState:atDate:onQueue:usingHandler:]_block_invoke510
+___copy_helper_block_517
+___destroy_helper_block_518
+-[ABLEController resetModel]
+___28-[ABLEController resetModel]_block_invoke
+-[ABLEController updateModelsForDate:]
+___38-[ABLEController updateModelsForDate:]_block_invoke
+___copy_helper_block_548
+___destroy_helper_block_549
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___38-[ABLEController updateModelsForDate:]_block_invoke551
+___copy_helper_block_554
+___destroy_helper_block_555
+-[ABLEController significantEventAtDate:]
+-[ABLEController reportStateWithRequest:]
+___41-[ABLEController reportStateWithRequest:]_block_invoke
+___copy_helper_block_580
+___destroy_helper_block_581
+-[ABLEController reportStateWithRequestInner]
+___45-[ABLEController reportStateWithRequestInner]_block_invoke
+___copy_helper_block_585
+___destroy_helper_block_586
+___45-[ABLEController reportStateWithRequestInner]_block_invoke591
+___copy_helper_block_594
+___destroy_helper_block_595
+-[ABLEController enabled]
+-[ABLEController setEnabled:]
+-[ABLEController ableUserDefaults]
+-[ABLEController setAbleUserDefaults:]
+-[ABLEController coreDuetUserDefaults]
+-[ABLEController setCoreDuetUserDefaults:]
+-[ABLEController coreDuetController]
+-[ABLEController setCoreDuetController:]
+-[ABLEController chargingModelController]
+-[ABLEController setChargingModelController:]
+-[ABLEController defaultModelController]
+-[ABLEController setDefaultModelController:]
+-[ABLEController modelControllers]
+-[ABLEController setModelControllers:]
+-[ABLEController validModelControllers]
+-[ABLEController setValidModelControllers:]
+-[ABLEController timerSuspended]
+-[ABLEController setTimerSuspended:]
+-[ABLEController postAdjust]
+-[ABLEController setPostAdjust:]
+-[ABLEController postAdjustDrainDirect]
+-[ABLEController setPostAdjustDrainDirect:]
+-[ABLEController postAdjustChargeDirect]
+-[ABLEController setPostAdjustChargeDirect:]
+-[ABLEController adjustForAbsoluteBatteryLevel]
+-[ABLEController setAdjustForAbsoluteBatteryLevel:]
+-[ABLEController adjustForShortDrain]
+-[ABLEController setAdjustForShortDrain:]
+-[ABLEController shortDrainMultiplier]
+-[ABLEController setShortDrainMultiplier:]
+-[ABLEController shortDrainThreshold]
+-[ABLEController setShortDrainThreshold:]
+-[ABLEController maxBONWithoutCharge]
+-[ABLEController setMaxBONWithoutCharge:]
+-[ABLEController selectedModel]
+-[ABLEController setSelectedModel:]
+-[ABLEController timerFrequencyPerHour]
+-[ABLEController setTimerFrequencyPerHour:]
+-[ABLEController lastBON]
+-[ABLEController setLastBON:]
+-[ABLEController lastRawBON]
+-[ABLEController setLastRawBON:]
+-[ABLEController lastBONDate]
+-[ABLEController setLastBONDate:]
+-[ABLEController lastBatteryLevel]
+-[ABLEController setLastBatteryLevel:]
+-[ABLEController lastChargingState]
+-[ABLEController setLastChargingState:]
+-[ABLEController settingsNotifyToken]
+-[ABLEController setSettingsNotifyToken:]
+-[ABLEController coreDuetSettingsNotifyToken]
+-[ABLEController setCoreDuetSettingsNotifyToken:]
+-[ABLEController configurationChangedHandler]
+-[ABLEController setConfigurationChangedHandler:]
+-[ABLEController appSettings]
+-[ABLEController setAppSettings:]
+-[ABLEController dataSourceOverride]
+-[ABLEController setDataSourceOverride:]
+-[ABLEController cdAdmissionLog]
+-[ABLEController setCdAdmissionLog:]
+-[ABLEController admissionLoggingEnabled]
+-[ABLEController setAdmissionLoggingEnabled:]
+-[ABLEController timeToRecalculateModel]
+-[ABLEController setTimeToRecalculateModel:]
+-[ABLEController timeToResetAndRecalculateModel]
+-[ABLEController setTimeToResetAndRecalculateModel:]
+-[ABLEController timeToCalculateBON]
+-[ABLEController setTimeToCalculateBON:]
+-[ABLEController .cxx_destruct]
+-[ABLEBSMBatteryPrediction initImplAtDate:atLevel:forDate:forLevel:]
+-[ABLEBSMBatteryPrediction initAtLevel:forDate:forLevel:]
+-[ABLEBSMBatteryPrediction initAtDate:atLevel:forDate:forLevel:]
+-[ABLEBSMBatteryPrediction encodeWithCoder:]
+-[ABLEBSMBatteryPrediction initWithCoder:]
+-[ABLEBSMBatteryPrediction predictionDate]
+-[ABLEBSMBatteryPrediction setPredictionDate:]
+-[ABLEBSMBatteryPrediction occurrenceDate]
+-[ABLEBSMBatteryPrediction setOccurrenceDate:]
+-[ABLEBSMBatteryPrediction occurrenceBatteryLevel]
+-[ABLEBSMBatteryPrediction setOccurrenceBatteryLevel:]
+-[ABLEBSMBatteryPrediction batteryLevel]
+-[ABLEBSMBatteryPrediction setBatteryLevel:]
+-[ABLEBSMBatteryPrediction .cxx_destruct]
+-[ABLEBSMPredictor initWithSession:]
+___36-[ABLEBSMPredictor initWithSession:]_block_invoke
+___36-[ABLEBSMPredictor initWithSession:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___36-[ABLEBSMPredictor initWithSession:]_block_invoke180
+___copy_helper_block_185
+___destroy_helper_block_186
+___36-[ABLEBSMPredictor initWithSession:]_block_invoke193
+___copy_helper_block_196
+___destroy_helper_block_197
+___36-[ABLEBSMPredictor initWithSession:]_block_invoke211
+___copy_helper_block_216
+___destroy_helper_block_217
+-[ABLEBSMPredictor dealloc]
++[ABLEBSMPredictor sharedInstanceWithSession:]
+___46+[ABLEBSMPredictor sharedInstanceWithSession:]_block_invoke
+___copy_helper_block_226
+___destroy_helper_block_227
+-[ABLEBSMPredictor predictionToString:]
+___39-[ABLEBSMPredictor predictionToString:]_block_invoke
+-[ABLEBSMPredictor predictionFromString:]
+-[ABLEBSMPredictor handleAutoNotifySettingChanged]
++[ABLEBSMPredictor isSupported]
+-[ABLEBSMPredictor isInternalBuild]
+-[ABLEBSMPredictor saveDate:forKey:]
+-[ABLEBSMPredictor updateLastRun:]
+-[ABLEBSMPredictor updateLastThrown:]
+-[ABLEBSMPredictor updateFirstDetect:]
+-[ABLEBSMPredictor updateABLEPredictionDate:]
+-[ABLEBSMPredictor updateABLEPrediction:]
+-[ABLEBSMPredictor updateNextChargeDate:]
+-[ABLEBSMPredictor updateNextZeroDate:]
+-[ABLEBSMPredictor updateNotificationDisplayed:]
+-[ABLEBSMPredictor updateConsecutiveDenies:]
+-[ABLEBSMPredictor updateLastDeniedDate:]
+-[ABLEBSMPredictor updateLastReportedDate:]
+-[ABLEBSMPredictor bsmEnabledAfterDate:]
+-[ABLEBSMPredictor resetBSMValuesIfApplicable]
+-[ABLEBSMPredictor updateArray:forKey:]
+-[ABLEBSMPredictor updatePredictionArray:forKey:]
+-[ABLEBSMPredictor initializeArrayWithKey:]
+-[ABLEBSMPredictor loadPredictionsForKey:]
+-[ABLEBSMPredictor initializeValues]
+-[ABLEBSMPredictor updateConfiguration]
+-[ABLEBSMPredictor recordPredictionsforABLECharge:forHistCharge:forPredZero:forProjZero:]
+___89-[ABLEBSMPredictor recordPredictionsforABLECharge:forHistCharge:forPredZero:forProjZero:]_block_invoke
+___copy_helper_block_340
+___destroy_helper_block_341
+-[ABLEBSMPredictor incrementFalsePositivesForPredictions:withTruth:withKey:]
+-[ABLEBSMPredictor reportStatsRaw]
+-[ABLEBSMPredictor leewayAdjustmentForEventsAt:]
+-[ABLEBSMPredictor leewayAdjustmentForTravel]
+-[ABLEBSMPredictor leewayAdjustmentForDate:]
+-[ABLEBSMPredictor predictedChargeDateAfterDate:withPrediction:atTime:withCharge:]
+-[ABLEBSMPredictor drainRateMultiplierWithLevel:predictedLevel:]
+-[ABLEBSMPredictor zeroDateFromABLEPredictionAfterDate:charge:prediction:atTime:nextCharge:]
+-[ABLEBSMPredictor zeroDateFromDrainAfterDate:charge:]
+-[ABLEBSMPredictor predictedZeroDateAfterDate:charge:prediction:atTime:nextCharge:]
+-[ABLEBSMPredictor shouldConsiderBSMWithCharge:]
+-[ABLEBSMPredictor shouldDisplayBSMNotificationWithDate:charge:chargeDate:zeroDate:]
+-[ABLEBSMPredictor triggerNotificationIfNecessary]
+-[ABLEBSMPredictor start]
+-[ABLEBSMPredictor registerForUnlockNotification:]
+___50-[ABLEBSMPredictor registerForUnlockNotification:]_block_invoke
+___copy_helper_block_450
+___destroy_helper_block_451
+-[ABLEBSMPredictor displayNotificationRaw:]
+-[ABLEBSMPredictor handleUserResponse:]
+___39-[ABLEBSMPredictor handleUserResponse:]_block_invoke
+___39-[ABLEBSMPredictor handleUserResponse:]_block_invoke_2
+___copy_helper_block_479
+___destroy_helper_block_480
+___copy_helper_block_485
+___destroy_helper_block_486
+-[ABLEBSMPredictor recordPrediction:predDate:]
+___46-[ABLEBSMPredictor recordPrediction:predDate:]_block_invoke
+___46-[ABLEBSMPredictor recordPrediction:predDate:]_block_invoke_2
+___copy_helper_block_490
+___destroy_helper_block_491
+___copy_helper_block_496
+___destroy_helper_block_497
+-[ABLEBSMPredictor recordPredictedKeyEventsOnDate:charge:]
+___58-[ABLEBSMPredictor recordPredictedKeyEventsOnDate:charge:]_block_invoke
+___58-[ABLEBSMPredictor recordPredictedKeyEventsOnDate:charge:]_block_invoke_2
+___copy_helper_block_511
+___destroy_helper_block_512
+___copy_helper_block_518
+___destroy_helper_block_519
+-[ABLEBSMPredictor .cxx_destruct]
+-[ABLEMockCDAttributePatternGenerator initWithPattern:]
+-[ABLEMockCDAttributePatternGenerator getSinValueForDate:withPeriod:andMin:andMax:andOffsetTime:]
+-[ABLEMockCDAttributePatternGenerator getSinValueForDate:withPeriod:andMin:andMax:]
+-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke72
+___copy_helper_block_75
+___destroy_helper_block_76
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke80
+___copy_helper_block_81
+___destroy_helper_block_82
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke86
+___copy_helper_block_87
+___destroy_helper_block_88
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke92
+___copy_helper_block_93
+___destroy_helper_block_94
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke98
+___copy_helper_block_99
+___destroy_helper_block_100
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke104
+___copy_helper_block_105
+___destroy_helper_block_106
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke110
+___copy_helper_block_111
+___destroy_helper_block_112
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke116
+___copy_helper_block_119
+___destroy_helper_block_120
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke124
+___copy_helper_block_125
+___destroy_helper_block_126
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke130
+___copy_helper_block_131
+___destroy_helper_block_132
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke154
+___80-[ABLEMockCDAttributePatternGenerator repeatedStatistic:forHistoryWindow:error:]_block_invoke_2165
+___copy_helper_block_166
+___destroy_helper_block_167
+-[ABLEMockCDAttributePatternGenerator statistic:forHistoryWindow:error:]
+-[ABLEMockCDAttributePatternGenerator pattern]
+-[ABLEMockCDAttributePatternGenerator sampleData]
+-[ABLEMockCDAttributePatternGenerator sampleEndDate]
+-[ABLEMockCDAttributePatternGenerator databaseData]
+-[ABLEMockCDAttributePatternGenerator .cxx_destruct]
+-[ABLEMockCDAttributeWithDevice initWithDevice:attribute:]
+-[ABLEMockCDAttributeWithDevice repeatedStatistic:forHistoryWindow:error:]
+-[ABLEMockCDAttributeWithDevice statistic:forHistoryWindow:error:]
+-[ABLEMockCDAttributeWithDevice device]
+-[ABLEMockCDAttributeWithDevice attribute]
+-[ABLEMockCDAttributeWithDevice .cxx_destruct]
+_objc_retain$shim
+_objc_release$shim
+_objc_autoreleaseReturnValue$shim
+__Block_object_assign$shim
+__Block_object_dispose$shim
+_objc_getProperty$shim
+_objc_storeStrong$shim
+_objc_setProperty_atomic$shim
+_objc_retainAutoreleaseReturnValue$shim
+_objc_autoreleasePoolPop$shim
+_objc_msgSend$shim
+_dispatch_semaphore_signal$shim
+_objc_setProperty_nonatomic_copy$shim
+_dispatch_resume$shim
+ stub helpers
+GCC_except_table9
+GCC_except_table17
+GCC_except_table23
+GCC_except_table28
+GCC_except_table77
+_predictionRecordHours
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.isValid
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.lastPluginDate
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.lastUnplugDate
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.lastUnplugLevel
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.lastPluginLevel
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.syncQueue
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.plugins
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.pluginChargeLevelSum
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.secondsFromGMT
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.session
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.batteryLevelAttribute
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.pluginAttribute
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.bundleIDAttribute
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.pluginEventToken
+_OBJC_IVAR_$_ABLEBSMPluginMonitor.isPluggedIn
+_OBJC_IVAR_$_ABLEMockCDAttribute._endDate
+_OBJC_IVAR_$_ABLEMockCDAttribute._duetSampleData
+_OBJC_IVAR_$_ABLEBONAdjustFromLevelController._postAdjust
+_OBJC_IVAR_$_ABLECoreData._cdModel
+_OBJC_IVAR_$_ABLECoreData._cdcontext
+_OBJC_IVAR_$_ABLECoreData._cdcoordinator
+_OBJC_IVAR_$_ABLEPredictionModelController.dayOffsets
+_OBJC_IVAR_$_ABLEPredictionModelController._coreDuetController
+_OBJC_IVAR_$_ABLEPredictionModelController.expires
+_OBJC_IVAR_$_ABLEPredictionModelController._minimumValidCorrelation
+_OBJC_IVAR_$_ABLEPredictionModelController._minimumRSquared
+_OBJC_IVAR_$_ABLEPredictionModelController._predictabilityController
+_OBJC_IVAR_$_ABLEPredictionModelController._predictionController
+_OBJC_IVAR_$_ABLEPredictionModelController.predictabilityOffset
+_OBJC_IVAR_$_ABLEPredictionModelController.lifetime
+_OBJC_IVAR_$_ABLEPredictionModelController._bonMap
+_OBJC_IVAR_$_ABLEPredictionModelController._softLanding
+_OBJC_IVAR_$_ABLEPredictionModelController._softLandingDecayRate
+_OBJC_IVAR_$_ABLEPredictionModelController._softLandingMaximum
+_OBJC_IVAR_$_ABLEPredictionModelController._softLandingMinimum
+_OBJC_IVAR_$_ABLEPredictionModelController._priorDay
+_OBJC_IVAR_$_ABLEPredictionModelController.enabled
+_OBJC_IVAR_$_ABLEPredictionModelController.expiryDate
+_OBJC_IVAR_$_ABLEPredictionModelController._predictionVector
+_OBJC_IVAR_$_ABLEPredictionModelController._adjustedPredictionVector
+_OBJC_IVAR_$_ABLEPredictionModelController._predictionPriorDayVector
+_OBJC_IVAR_$_ABLEPredictionModelController._adjustedPredictionPriorDayVector
+_OBJC_IVAR_$_ABLEPredictionModelController._predictionDate
+_OBJC_IVAR_$_ABLEPredictionModelController._priorDayActualVector
+_OBJC_IVAR_$_ABLEPredictionModelController._todayActualVector
+_OBJC_IVAR_$_ABLEPredictionModelController._rsquaredForPriorDay
+_OBJC_IVAR_$_ABLEPredictionModelController._currentBON
+_OBJC_IVAR_$_ABLEPredictionModelController.valid
+_OBJC_IVAR_$_ABLEPredictionModelController._samplePeriod
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.enabled
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.syncQueue
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.defaults
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.commuteDistance
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.routine
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.manager
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.homes
+_OBJC_IVAR_$_ABLEBSMRoutineMonitor.frequentLOIs
+_OBJC_IVAR_$_ABLEPredictabilityController._coreDuetController
+_OBJC_IVAR_$_ABLEPredictabilityController._approximateMissingData
+_OBJC_IVAR_$_ABLEPredictabilityController._dayOffsets
+_OBJC_IVAR_$_ABLEPredictabilityController._rejectionThresholdForMissingData
+_OBJC_IVAR_$_ABLEPredictabilityController._currentData
+_OBJC_IVAR_$_ABLEConstantModelController._constantValue
+_OBJC_IVAR_$_ABLEConstantModelController.valid
+_OBJC_IVAR_$_ABLEMockCDAttributeWithData._data
+_OBJC_IVAR_$_ABLEPredictionController._coreDuetController
+_OBJC_IVAR_$_ABLEPredictionController._dayOffsets
+_OBJC_IVAR_$_ABLEPredictionController._coefficients
+_OBJC_IVAR_$_ABLEPredictionController._approximateMissingData
+_OBJC_IVAR_$_ABLEPredictionController._rejectionThresholdForMissingData
+_OBJC_IVAR_$_ABLEPredictionController._currentData
+_OBJC_IVAR_$_ABLEGradientModelController.historyPeriodRequired
+_OBJC_IVAR_$_ABLEGradientModelController.lifetime
+_OBJC_IVAR_$_ABLEGradientModelController.recurrence
+_OBJC_IVAR_$_ABLEGradientModelController._coreDuetController
+_OBJC_IVAR_$_ABLEGradientModelController._gradient
+_OBJC_IVAR_$_ABLEGradientModelController._currentBON
+_OBJC_IVAR_$_ABLEGradientModelController.expires
+_OBJC_IVAR_$_ABLEGradientModelController.expiryDate
+_OBJC_IVAR_$_ABLEGradientModelController._lastShortData
+_OBJC_IVAR_$_ABLEGradientModelController.enabled
+_OBJC_IVAR_$_ABLEGradientModelController._lastData
+_OBJC_IVAR_$_ABLEGradientModelController._currentShortBON
+_OBJC_IVAR_$_ABLEGradientModelController._lastGradient
+_OBJC_IVAR_$_ABLEGradientModelController._lastShortGradient
+_OBJC_IVAR_$_ABLEGradientModelController._configuration
+_OBJC_IVAR_$_ABLEGradientModelController._lastDate
+_OBJC_IVAR_$_ABLEModelController.valid
+_OBJC_IVAR_$_ABLEModelController._priority
+_OBJC_IVAR_$_ABLECoreDuetController._session
+_OBJC_IVAR_$_ABLECoreDuetController._device
+_OBJC_IVAR_$_ABLECoreDuetController._batteryLevelAttribute
+_OBJC_IVAR_$_ABLEDirectModelController._directMap
+_OBJC_IVAR_$_ABLEDirectModelController._currentBON
+_OBJC_IVAR_$_ABLEController._timeToRecalculateModel
+_OBJC_IVAR_$_ABLEController._timeToResetAndRecalculateModel
+_OBJC_IVAR_$_ABLEController._timeToCalculateBON
+_OBJC_IVAR_$_ABLEController._cdAdmissionLog
+_OBJC_IVAR_$_ABLEController._admissionLoggingEnabled
+_OBJC_IVAR_$_ABLEController.DuetABLEQueue
+_OBJC_IVAR_$_ABLEController.DuetABLETimer
+_OBJC_IVAR_$_ABLEController._coreDuetController
+_OBJC_IVAR_$_ABLEController._enabled
+_OBJC_IVAR_$_ABLEController._suspended
+_OBJC_IVAR_$_ABLEController._configurationChangedHandler
+_OBJC_IVAR_$_ABLEController._settingsNotifyToken
+_OBJC_IVAR_$_ABLEController._coreDuetSettingsNotifyToken
+_OBJC_IVAR_$_ABLEController._appSettings
+_OBJC_IVAR_$_ABLEController._postAdjust
+_OBJC_IVAR_$_ABLEController._postAdjustDrainDirect
+_OBJC_IVAR_$_ABLEController._postAdjustChargeDirect
+_OBJC_IVAR_$_ABLEController._maxBONWithoutCharge
+_OBJC_IVAR_$_ABLEController._ableUserDefaults
+_OBJC_IVAR_$_ABLEController._coreDuetUserDefaults
+_OBJC_IVAR_$_ABLEController._chargingModelController
+_OBJC_IVAR_$_ABLEController._defaultModelController
+_OBJC_IVAR_$_ABLEController._modelControllers
+_OBJC_IVAR_$_ABLEController._validModelControllers
+_OBJC_IVAR_$_ABLEController._timerSuspended
+_OBJC_IVAR_$_ABLEController._adjustForAbsoluteBatteryLevel
+_OBJC_IVAR_$_ABLEController._adjustForShortDrain
+_OBJC_IVAR_$_ABLEController._shortDrainMultiplier
+_OBJC_IVAR_$_ABLEController._shortDrainThreshold
+_OBJC_IVAR_$_ABLEController._selectedModel
+_OBJC_IVAR_$_ABLEController._timerFrequencyPerHour
+_OBJC_IVAR_$_ABLEController._lastBON
+_OBJC_IVAR_$_ABLEController._lastRawBON
+_OBJC_IVAR_$_ABLEController._lastBONDate
+_OBJC_IVAR_$_ABLEController._lastBatteryLevel
+_OBJC_IVAR_$_ABLEController._lastChargingState
+_OBJC_IVAR_$_ABLEController._dataSourceOverride
+_OBJC_IVAR_$_ABLEController.sequenceNumber
+_OBJC_IVAR_$_ABLEBSMBatteryPrediction.predictionDate
+_OBJC_IVAR_$_ABLEBSMBatteryPrediction.occurrenceDate
+_OBJC_IVAR_$_ABLEBSMBatteryPrediction.occurrenceBatteryLevel
+_OBJC_IVAR_$_ABLEBSMBatteryPrediction._batteryLevel
+_OBJC_IVAR_$_ABLEBSMPredictor.defaults
+_OBJC_IVAR_$_ABLEBSMPredictor.ableCoreData
+_OBJC_IVAR_$_ABLEBSMPredictor.cdQueue
+_OBJC_IVAR_$_ABLEBSMPredictor.syncQueue
+_OBJC_IVAR_$_ABLEBSMPredictor.cdSession
+_OBJC_IVAR_$_ABLEBSMPredictor.ekEnabled
+_OBJC_IVAR_$_ABLEBSMPredictor.pluginMonitor
+_OBJC_IVAR_$_ABLEBSMPredictor.routineMonitor
+_OBJC_IVAR_$_ABLEBSMPredictor.bsmToken
+_OBJC_IVAR_$_ABLEBSMPredictor.bsmEnabled
+_OBJC_IVAR_$_ABLEBSMPredictor.currLocale
+_OBJC_IVAR_$_ABLEBSMPredictor.predictionConfig
+_OBJC_IVAR_$_ABLEBSMPredictor.autoNotifyToken
+_OBJC_IVAR_$_ABLEBSMPredictor.isTraveling
+_OBJC_IVAR_$_ABLEBSMPredictor.isInternal
+_OBJC_IVAR_$_ABLEBSMPredictor.timerQueue
+_OBJC_IVAR_$_ABLEBSMPredictor.timer
+_OBJC_IVAR_$_ABLEBSMPredictor.lastRun
+_OBJC_IVAR_$_ABLEBSMPredictor.lastReportedDate
+_OBJC_IVAR_$_ABLEBSMPredictor.statTimer
+_OBJC_IVAR_$_ABLEBSMPredictor.autoNotifyEnabled
+_OBJC_IVAR_$_ABLEBSMPredictor.lastThrown
+_OBJC_IVAR_$_ABLEBSMPredictor.firstDetect
+_OBJC_IVAR_$_ABLEBSMPredictor.ablePredictionDate
+_OBJC_IVAR_$_ABLEBSMPredictor.ablePrediction
+_OBJC_IVAR_$_ABLEBSMPredictor.predNextChargeDate
+_OBJC_IVAR_$_ABLEBSMPredictor.predNextZeroDate
+_OBJC_IVAR_$_ABLEBSMPredictor.bsmDisplayed
+_OBJC_IVAR_$_ABLEBSMPredictor.consecutiveDenies
+_OBJC_IVAR_$_ABLEBSMPredictor.lastDeniedDate
+_OBJC_IVAR_$_ABLEBSMPredictor.bsmThrown
+_OBJC_IVAR_$_ABLEBSMPredictor.previousRun
+_OBJC_IVAR_$_ABLEBSMPredictor.lastInfoNoteShown
+_OBJC_IVAR_$_ABLEBSMPredictor.ableChargePredictions
+_OBJC_IVAR_$_ABLEBSMPredictor.histChargePredictions
+_OBJC_IVAR_$_ABLEBSMPredictor.predictedZeroDates
+_OBJC_IVAR_$_ABLEBSMPredictor.projectedZeroDates
+_OBJC_IVAR_$_ABLEBSMPredictor.ableNextChargeDate
+_OBJC_IVAR_$_ABLEBSMPredictor.projNextChargeDate
+_OBJC_IVAR_$_ABLEBSMPredictor.ableDrain
+_OBJC_IVAR_$_ABLEBSMPredictor.ableZero
+_OBJC_IVAR_$_ABLEBSMPredictor.projDrain
+_OBJC_IVAR_$_ABLEBSMPredictor.projZero
+_OBJC_IVAR_$_ABLEBSMPredictor.ableZeroDate
+_OBJC_IVAR_$_ABLEBSMPredictor.projZeroDate
+_OBJC_IVAR_$_ABLEBSMPredictor.lockstateToken
+_OBJC_IVAR_$_ABLEBSMPredictor.lastBSMDisableDate
+_OBJC_IVAR_$_ABLEBSMPredictor.haveBatteryAndPluginData
+_OBJC_IVAR_$_ABLEMockCDAttributePatternGenerator._pattern
+_OBJC_IVAR_$_ABLEMockCDAttributePatternGenerator._sampleData
+_OBJC_IVAR_$_ABLEMockCDAttributePatternGenerator._sampleEndDate
+_OBJC_IVAR_$_ABLEMockCDAttributePatternGenerator._databaseData
+_OBJC_IVAR_$_ABLEMockCDAttributeWithDevice._device
+_OBJC_IVAR_$_ABLEMockCDAttributeWithDevice._attribute
+_pluginMonitor
+_monitorWithSession:.onceToken
+_predictionVectorWithSession:date:config:.coreDuetController
+_predictionVectorWithSession:date:config:.predictabilityController
+_predictionVectorWithSession:date:config:.predictionController
+_predictionVectorWithSession:date:config:.onceToken
+_monitor
+_monitorWithDefaults:.onceToken
+_predictor
+_cal
+_initWithSession:.onceToken
+_sharedInstanceWithSession:.onceToken
+___block_descriptor_tmp
+___block_descriptor_tmp101
+___block_descriptor_tmp124
+___block_descriptor_tmp130
+___block_descriptor_tmp136
+___block_descriptor_tmp149
+___block_descriptor_tmp193
+___block_descriptor_tmp
+___block_descriptor_tmp122
+___block_descriptor_tmp127
+___block_descriptor_tmp132
+___block_descriptor_tmp
+___block_descriptor_tmp110
+___block_descriptor_tmp121
+___block_descriptor_tmp129
+___block_literal_global
+___block_descriptor_tmp136
+___block_descriptor_tmp165
+___block_literal_global166
+___block_descriptor_tmp184
+___block_descriptor_tmp185
+___block_literal_global186
+___block_descriptor_tmp188
+___block_descriptor_tmp222
+___block_literal_global223
+___block_descriptor_tmp254
+___block_descriptor_tmp259
+___block_descriptor_tmp287
+___block_literal_global288
+___block_descriptor_tmp293
+___block_literal_global294
+___block_descriptor_tmp301
+___block_literal_global302
+___block_descriptor_tmp340
+___block_descriptor_tmp
+___block_descriptor_tmp32
+___block_descriptor_tmp57
+___block_descriptor_tmp63
+___block_descriptor_tmp78
+___block_descriptor_tmp86
+___block_descriptor_tmp100
+___block_descriptor_tmp105
+___block_descriptor_tmp
+___block_descriptor_tmp48
+___block_descriptor_tmp80
+___block_descriptor_tmp97
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp43
+___block_descriptor_tmp53
+___block_descriptor_tmp71
+___block_literal_global
+___block_descriptor_tmp90
+___block_literal_global91
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp6
+___block_literal_global7
+___block_descriptor_tmp16
+___block_literal_global17
+___block_descriptor_tmp
+___block_descriptor_tmp84
+___block_descriptor_tmp106
+___block_literal_global
+___block_descriptor_tmp130
+___block_descriptor_tmp143
+___block_literal_global144
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp104
+___block_literal_global105
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp27
+___block_descriptor_tmp106
+___block_descriptor_tmp112
+___block_descriptor_tmp118
+___block_descriptor_tmp123
+___block_descriptor_tmp245
+___block_descriptor_tmp258
+___block_descriptor_tmp279
+___block_descriptor_tmp311
+___block_literal_global
+___block_descriptor_tmp325
+___block_literal_global326
+___block_descriptor_tmp341
+___block_descriptor_tmp360
+___block_descriptor_tmp377
+___block_descriptor_tmp384
+___block_descriptor_tmp445
+___block_descriptor_tmp464
+___block_descriptor_tmp480
+___block_descriptor_tmp506
+___block_descriptor_tmp509
+___block_descriptor_tmp519
+___block_descriptor_tmp520
+___block_literal_global521
+___block_descriptor_tmp550
+___block_descriptor_tmp557
+___block_descriptor_tmp582
+___block_descriptor_tmp588
+___block_descriptor_tmp597
+_kAggDBSMZeroPredicted
+_kAggDBSMZeroProjected
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp170
+___block_descriptor_tmp187
+___block_descriptor_tmp198
+___block_descriptor_tmp218
+___block_descriptor_tmp228
+___block_descriptor_tmp232
+___block_literal_global233
+___block_descriptor_tmp342
+___block_descriptor_tmp452
+___block_descriptor_tmp482
+___block_descriptor_tmp487
+___block_descriptor_tmp493
+___block_descriptor_tmp498
+___block_descriptor_tmp515
+___block_descriptor_tmp521
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp53
+___block_descriptor_tmp77
+___block_descriptor_tmp83
+___block_descriptor_tmp89
+___block_descriptor_tmp95
+___block_descriptor_tmp101
+___block_descriptor_tmp107
+___block_descriptor_tmp113
+___block_descriptor_tmp121
+___block_descriptor_tmp127
+___block_descriptor_tmp133
+___block_descriptor_tmp157
+___block_literal_global158
+___block_descriptor_tmp168
+_ABLEDataHygiene_notNaN
+_OBJC_CLASS_$_ABLEBONAdjustFromLevelController
+_OBJC_CLASS_$_ABLEBSMBatteryPrediction
+_OBJC_CLASS_$_ABLEBSMPluginMonitor
+_OBJC_CLASS_$_ABLEBSMPredictor
+_OBJC_CLASS_$_ABLEBSMRoutineMonitor
+_OBJC_CLASS_$_ABLEBattery
+_OBJC_CLASS_$_ABLECDNotificationResponse
+_OBJC_CLASS_$_ABLECDPredictedEvents
+_OBJC_CLASS_$_ABLECDPrediction
+_OBJC_CLASS_$_ABLEConstantModelController
+_OBJC_CLASS_$_ABLEController
+_OBJC_CLASS_$_ABLECoreData
+_OBJC_CLASS_$_ABLECoreDuetController
+_OBJC_CLASS_$_ABLECoreDuetUtils
+_OBJC_CLASS_$_ABLEDirectModelController
+_OBJC_CLASS_$_ABLEGradientModelController
+_OBJC_CLASS_$_ABLEMockCDAttribute
+_OBJC_CLASS_$_ABLEMockCDAttributePatternGenerator
+_OBJC_CLASS_$_ABLEMockCDAttributeWithData
+_OBJC_CLASS_$_ABLEMockCDAttributeWithDevice
+_OBJC_CLASS_$_ABLEModelController
+_OBJC_CLASS_$_ABLEPredictabilityController
+_OBJC_CLASS_$_ABLEPredictionController
+_OBJC_CLASS_$_ABLEPredictionModelController
+_OBJC_METACLASS_$_ABLEBONAdjustFromLevelController
+_OBJC_METACLASS_$_ABLEBSMBatteryPrediction
+_OBJC_METACLASS_$_ABLEBSMPluginMonitor
+_OBJC_METACLASS_$_ABLEBSMPredictor
+_OBJC_METACLASS_$_ABLEBSMRoutineMonitor
+_OBJC_METACLASS_$_ABLEBattery
+_OBJC_METACLASS_$_ABLECDNotificationResponse
+_OBJC_METACLASS_$_ABLECDPredictedEvents
+_OBJC_METACLASS_$_ABLECDPrediction
+_OBJC_METACLASS_$_ABLEConstantModelController
+_OBJC_METACLASS_$_ABLEController
+_OBJC_METACLASS_$_ABLECoreData
+_OBJC_METACLASS_$_ABLECoreDuetController
+_OBJC_METACLASS_$_ABLECoreDuetUtils
+_OBJC_METACLASS_$_ABLEDirectModelController
+_OBJC_METACLASS_$_ABLEGradientModelController
+_OBJC_METACLASS_$_ABLEMockCDAttribute
+_OBJC_METACLASS_$_ABLEMockCDAttributePatternGenerator
+_OBJC_METACLASS_$_ABLEMockCDAttributeWithData
+_OBJC_METACLASS_$_ABLEMockCDAttributeWithDevice
+_OBJC_METACLASS_$_ABLEModelController
+_OBJC_METACLASS_$_ABLEPredictabilityController
+_OBJC_METACLASS_$_ABLEPredictionController
+_OBJC_METACLASS_$_ABLEPredictionModelController
+_ablemsg
+_file
+_initialiseLog
+_kABLECoreDuetController
+_kPredictionDayOffsets
+_kPredictionEnabled
+_kPredictionLifetime
+_kPredictionMinCorr
+_kPredictionMinRSquared
+_kPredictionPredictabilityOffsetDays
+_kPredictionRejectionThresholdMissingData
+_kPredictionSoftLanding
+_kPredictionSoftLandingDecayRate
+_kPredictionSoftLandingMax
+_kPredictionSoftLandingMin
+_ADClientAddValueForScalarKey
+_ADClientSetValueForScalarKey
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFDictionaryGetValue
+_CFEqual
+_CFNumberGetValue
+_CFRelease
+_CFStringCompare
+_CFUserNotificationDisplayAlert
+_IOPSCopyPowerSourcesInfo
+_IOPSCopyPowerSourcesList
+_IOPSGetPowerSourceDescription
+_MGCopyAnswer
+_NSCalendarIdentifierGregorian
+_NSFileProtectionNone
+_NSInferMappingModelAutomaticallyOption
+_NSLog
+_NSMergeByPropertyObjectTrumpMergePolicy
+_NSMigratePersistentStoresAutomaticallyOption
+_NSPersistentStoreFileProtectionKey
+_NSSQLiteStoreType
+_NSStringFromClass
+_OBJC_CLASS_$_ABLEApprox
+_OBJC_CLASS_$_ABLEBONDirect
+_OBJC_CLASS_$_ABLEBONPostAdjust
+_OBJC_CLASS_$_ABLEBONPrediction
+_OBJC_CLASS_$_ABLEDataHygiene
+_OBJC_CLASS_$_ABLEDateSeq
+_OBJC_CLASS_$_ABLEGradient
+_OBJC_CLASS_$_ABLEVectorSumSquare
+_OBJC_CLASS_$_ABLEZeroAvoid
+_OBJC_CLASS_$_CDAdmissionControlLogWriter
+_OBJC_CLASS_$_CDDHistoryWindow
+_OBJC_CLASS_$_CLLocation
+_OBJC_CLASS_$_CLLocationManager
+_OBJC_CLASS_$_DuetSampleData
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCalendar
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSEntityDescription
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSManagedObject
+_OBJC_CLASS_$_NSManagedObjectContext
+_OBJC_CLASS_$_NSManagedObjectModel
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPersistentStoreCoordinator
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_RTRoutineManager
+_OBJC_METACLASS_$_NSManagedObject
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_SjLj_Register
+__Unwind_SjLj_Resume
+__Unwind_SjLj_Unregister
+___CFConstantStringClassReference
+___NSArray0__
+___NSDictionary0__
+___fixdfdi
+___fixunsdfdi
+___floatdidf
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_source_type_timer
+__objc_empty_cache
+__os_assumes_log
+__os_avoid_tail_call
+_asl_add_output_file
+_asl_log
+_asl_new
+_asl_release
+_asl_remove_log_file
+_asl_set
+_asl_set_filter
+_close
+_dispatch_async
+_dispatch_once
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_source_create
+_dispatch_source_set_cancel_handler
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_suspend
+_dispatch_sync
+_dispatch_time
+_dispatch_walltime
+_exit
+_kCFBooleanTrue
+_lround
+_mkdir
+_notify_cancel
+_notify_check
+_notify_get_state
+_notify_post
+_notify_register_dispatch
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_copyStruct
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_open
+_round
+_sin
+_stat
+dyld_stub_binder

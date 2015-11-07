@@ -1,0 +1,417 @@
+-[CacheDelete init]
+___19-[CacheDelete init]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CacheDelete scanPlistsAtPath:execBlock:]
+-[CacheDelete handleVFSStreamXPCEvent:]
+-[CacheDelete performPeriodicsWithInfo:]
+___40-[CacheDelete performPeriodicsWithInfo:]_block_invoke
+___40-[CacheDelete performPeriodicsWithInfo:]_block_invoke_2
+___40-[CacheDelete performPeriodicsWithInfo:]_block_invoke_3
+___40-[CacheDelete performPeriodicsWithInfo:]_block_invoke_4
+___copy_helper_block_164
+___destroy_helper_block_165
+___copy_helper_block_169
+___destroy_helper_block_170
+___copy_helper_block_173
+___destroy_helper_block_174
+___40-[CacheDelete performPeriodicsWithInfo:]_block_invoke177
+___copy_helper_block_181
+___destroy_helper_block_182
+-[CacheDelete _checkInfo:]
+-[CacheDelete urgencyFromInfo:key:]
+-[CacheDelete purgingServices]
+-[CacheDelete updateInFlight:set:add:]
+___38-[CacheDelete updateInFlight:set:add:]_block_invoke
+___copy_helper_block_214
+___destroy_helper_block_215
+-[CacheDelete requestsInFlight:]
+___32-[CacheDelete requestsInFlight:]_block_invoke
+___copy_helper_block_217
+___destroy_helper_block_218
+-[CacheDelete optOutService:add:]
+___33-[CacheDelete optOutService:add:]_block_invoke
+___copy_helper_block_229
+___destroy_helper_block_230
+-[CacheDelete cachedInfo:]
+___26-[CacheDelete cachedInfo:]_block_invoke
+___copy_helper_block_265
+___destroy_helper_block_266
+-[CacheDelete updateServiceStats:withInfo:]
+___43-[CacheDelete updateServiceStats:withInfo:]_block_invoke
+___copy_helper_block_289
+___destroy_helper_block_290
+-[CacheDelete _totalAvailable:info:]
+___36-[CacheDelete _totalAvailable:info:]_block_invoke
+___36-[CacheDelete _totalAvailable:info:]_block_invoke_2
+___36-[CacheDelete _totalAvailable:info:]_block_invoke_3
+___copy_helper_block_312
+___destroy_helper_block_313
+___copy_helper_block_317
+___destroy_helper_block_318
+___36-[CacheDelete _totalAvailable:info:]_block_invoke320
+___copy_helper_block_323
+___destroy_helper_block_324
+___copy_helper_block_326
+___destroy_helper_block_327
+-[CacheDelete totalAvailable:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___30-[CacheDelete totalAvailable:]_block_invoke
+___copy_helper_block_367
+___destroy_helper_block_368
+-[CacheDelete reportPercentageForAmountRequested:amountPurged:identifier:]
+-[CacheDelete queueServiceRequest:info:callback:]
+___49-[CacheDelete queueServiceRequest:info:callback:]_block_invoke
+___49-[CacheDelete queueServiceRequest:info:callback:]_block_invoke_2
+___49-[CacheDelete queueServiceRequest:info:callback:]_block_invoke_3
+___49-[CacheDelete queueServiceRequest:info:callback:]_block_invoke_4
+___copy_helper_block_414
+___destroy_helper_block_415
+___copy_helper_block_429
+___destroy_helper_block_430
+___copy_helper_block_435
+___destroy_helper_block_436
+___49-[CacheDelete queueServiceRequest:info:callback:]_block_invoke439
+___copy_helper_block_440
+___destroy_helper_block_441
+___copy_helper_block_443
+___destroy_helper_block_444
+-[CacheDelete purge:callback:]
+___30-[CacheDelete purge:callback:]_block_invoke
+___copy_helper_block_486
+___destroy_helper_block_487
+-[CacheDelete clientCancelPurge:]
+___33-[CacheDelete clientCancelPurge:]_block_invoke
+___33-[CacheDelete clientCancelPurge:]_block_invoke_2
+___33-[CacheDelete clientCancelPurge:]_block_invoke_3
+___33-[CacheDelete clientCancelPurge:]_block_invoke_4
+___copy_helper_block_500
+___destroy_helper_block_501
+___33-[CacheDelete clientCancelPurge:]_block_invoke507
+___copy_helper_block_510
+___destroy_helper_block_511
+___copy_helper_block_513
+___destroy_helper_block_514
+-[CacheDelete pingService:]
+___27-[CacheDelete pingService:]_block_invoke
+___copy_helper_block_520
+___destroy_helper_block_521
+-[CacheDelete notifyRecipients:value:]
+___38-[CacheDelete notifyRecipients:value:]_block_invoke
+___38-[CacheDelete notifyRecipients:value:]_block_invoke_2
+___38-[CacheDelete notifyRecipients:value:]_block_invoke_3
+___copy_helper_block_531
+___destroy_helper_block_532
+___copy_helper_block_536
+___destroy_helper_block_537
+___38-[CacheDelete notifyRecipients:value:]_block_invoke539
+___copy_helper_block_542
+___destroy_helper_block_543
+-[CacheDelete clientCheckin:endpoint:info:reply:]
+___49-[CacheDelete clientCheckin:endpoint:info:reply:]_block_invoke
+___copy_helper_block_549
+___destroy_helper_block_550
+___49-[CacheDelete clientCheckin:endpoint:info:reply:]_block_invoke562
+___49-[CacheDelete clientCheckin:endpoint:info:reply:]_block_invoke_2
+___49-[CacheDelete clientCheckin:endpoint:info:reply:]_block_invoke_3
+___copy_helper_block_575
+___destroy_helper_block_576
+___copy_helper_block_578
+___destroy_helper_block_579
+___49-[CacheDelete clientCheckin:endpoint:info:reply:]_block_invoke583
+___49-[CacheDelete clientCheckin:endpoint:info:reply:]_block_invoke_2586
+___copy_helper_block_587
+___destroy_helper_block_588
+___copy_helper_block_590
+___destroy_helper_block_591
+___49-[CacheDelete clientCheckin:endpoint:info:reply:]_block_invoke608
+___copy_helper_block_613
+___destroy_helper_block_614
+___copy_helper_block_629
+___destroy_helper_block_630
+-[CacheDelete clientItemizedPurgeableSpace:replyBlock:]
+___55-[CacheDelete clientItemizedPurgeableSpace:replyBlock:]_block_invoke
+___copy_helper_block_636
+___destroy_helper_block_637
+-[CacheDelete clientPurgeableSpace:replyBlock:]
+___47-[CacheDelete clientPurgeableSpace:replyBlock:]_block_invoke
+___copy_helper_block_641
+___destroy_helper_block_642
+-[CacheDelete clientPurge:replyBlock:]
+___38-[CacheDelete clientPurge:replyBlock:]_block_invoke
+___copy_helper_block_646
+___destroy_helper_block_647
+-[CacheDelete _clientSetState:key:replyBlock:]
+-[CacheDelete clientSetState:key:replyBlock:]
+___45-[CacheDelete clientSetState:key:replyBlock:]_block_invoke
+___copy_helper_block_661
+___destroy_helper_block_662
+-[CacheDelete clientSetStateSync:key:]
+___38-[CacheDelete clientSetStateSync:key:]_block_invoke
+___copy_helper_block_667
+___destroy_helper_block_668
+-[CacheDelete _clientGetState:replyBlock:]
+-[CacheDelete clientGetState:replyBlock:]
+___41-[CacheDelete clientGetState:replyBlock:]_block_invoke
+___copy_helper_block_682
+___destroy_helper_block_683
+-[CacheDelete clientGetStateSync:]
+___34-[CacheDelete clientGetStateSync:]_block_invoke
+___copy_helper_block_688
+___destroy_helper_block_689
+-[CacheDelete listener]
+-[CacheDelete setListener:]
+-[CacheDelete purgeableInFlight]
+-[CacheDelete setPurgeableInFlight:]
+-[CacheDelete purgeInFlight]
+-[CacheDelete setPurgeInFlight:]
+-[CacheDelete periodicInFlight]
+-[CacheDelete setPeriodicInFlight:]
+-[CacheDelete userDefaults]
+-[CacheDelete setUserDefaults:]
+-[CacheDelete services]
+-[CacheDelete setServices:]
+-[CacheDelete daemons]
+-[CacheDelete setDaemons:]
+-[CacheDelete default_values]
+-[CacheDelete setDefault_values:]
+-[CacheDelete optOuts]
+-[CacheDelete setOptOuts:]
+-[CacheDelete operation_queue]
+-[CacheDelete setOperation_queue:]
+-[CacheDelete daemons_queue]
+-[CacheDelete setDaemons_queue:]
+-[CacheDelete collection_queue]
+-[CacheDelete setCollection_queue:]
+-[CacheDelete defaults_queue]
+-[CacheDelete setDefaults_queue:]
+-[CacheDelete cancel]
+-[CacheDelete setCancel:]
+-[CacheDelete rootPath]
+-[CacheDelete setRootPath:]
+-[CacheDelete purge_amount_needed]
+-[CacheDelete setPurge_amount_needed:]
+-[CacheDelete purge_amount_reported]
+-[CacheDelete setPurge_amount_reported:]
+-[CacheDelete purge_active_service_count]
+-[CacheDelete setPurge_active_service_count:]
+-[CacheDelete viable_purging_services]
+-[CacheDelete setViable_purging_services:]
+-[CacheDelete currentUrgency]
+-[CacheDelete setCurrentUrgency:]
+-[CacheDelete purge_post_queue]
+-[CacheDelete setPurge_post_queue:]
+-[CacheDelete purge_semaphore]
+-[CacheDelete setPurge_semaphore:]
+-[CacheDelete .cxx_destruct]
+_main
+___main_block_invoke
+___main_block_invoke_2
+___main_block_invoke_3
+_sigterm_handler
+_objc_release$shim
+_objc_retain$shim
+_objc_autoreleaseReturnValue$shim
+__Block_object_assign$shim
+__Block_object_dispose$shim
+_dispatch_semaphore_signal$shim
+_objc_copyWeak$shim
+_objc_destroyWeak$shim
+_objc_msgSend$shim
+_objc_getProperty$shim
+_objc_setProperty_atomic$shim
+_objc_storeStrong$shim
+_xpc_transaction_end$shim
+ stub helpers
+GCC_except_table23
+GCC_except_table27
+GCC_except_table31
+GCC_except_table56
+GCC_except_table95
+GCC_except_table110
+GCC_except_table114
+GCC_except_table158
+___block_descriptor_tmp
+___block_descriptor_tmp166
+___block_descriptor_tmp172
+___block_descriptor_tmp176
+___block_descriptor_tmp180
+___block_literal_global
+___block_descriptor_tmp183
+___block_descriptor_tmp216
+___block_descriptor_tmp219
+___block_descriptor_tmp231
+___block_descriptor_tmp267
+___block_descriptor_tmp291
+___block_descriptor_tmp314
+___block_descriptor_tmp319
+___block_descriptor_tmp325
+___block_descriptor_tmp328
+___block_descriptor_tmp369
+___block_descriptor_tmp416
+___block_descriptor_tmp432
+___block_descriptor_tmp438
+___block_descriptor_tmp442
+___block_descriptor_tmp445
+___block_descriptor_tmp489
+___block_descriptor_tmp502
+___block_descriptor_tmp505
+___block_literal_global506
+___block_descriptor_tmp508
+___block_literal_global509
+___block_descriptor_tmp512
+___block_descriptor_tmp515
+___block_descriptor_tmp522
+___block_descriptor_tmp533
+___block_descriptor_tmp538
+___block_descriptor_tmp540
+___block_literal_global541
+___block_descriptor_tmp544
+___block_descriptor_tmp551
+___block_descriptor_tmp577
+___block_descriptor_tmp580
+___block_descriptor_tmp589
+___block_descriptor_tmp592
+___block_descriptor_tmp616
+___block_descriptor_tmp631
+___block_descriptor_tmp638
+___block_descriptor_tmp643
+___block_descriptor_tmp648
+___block_descriptor_tmp663
+___block_descriptor_tmp669
+___block_descriptor_tmp684
+___block_descriptor_tmp691
+___block_descriptor_tmp827
+___block_literal_global828
+___block_descriptor_tmp830
+___block_literal_global831
+___block_descriptor_tmp834
+___block_literal_global835
+_OBJC_IVAR_$_CacheDelete._rootPath
+_OBJC_IVAR_$_CacheDelete._default_values
+_OBJC_IVAR_$_CacheDelete._userDefaults
+_OBJC_IVAR_$_CacheDelete._operation_queue
+_OBJC_IVAR_$_CacheDelete._daemons_queue
+_OBJC_IVAR_$_CacheDelete._collection_queue
+_OBJC_IVAR_$_CacheDelete._defaults_queue
+_OBJC_IVAR_$_CacheDelete._purge_post_queue
+_OBJC_IVAR_$_CacheDelete._optOuts
+_OBJC_IVAR_$_CacheDelete._services
+_OBJC_IVAR_$_CacheDelete._daemons
+_OBJC_IVAR_$_CacheDelete._purgeableInFlight
+_OBJC_IVAR_$_CacheDelete._purgeInFlight
+_OBJC_IVAR_$_CacheDelete._periodicInFlight
+_OBJC_IVAR_$_CacheDelete._listener
+_OBJC_IVAR_$_CacheDelete._cancel
+_OBJC_IVAR_$_CacheDelete._purge_amount_needed
+_OBJC_IVAR_$_CacheDelete._purge_amount_reported
+_OBJC_IVAR_$_CacheDelete._purge_active_service_count
+_OBJC_IVAR_$_CacheDelete._viable_purging_services
+_OBJC_IVAR_$_CacheDelete._currentUrgency
+_OBJC_IVAR_$_CacheDelete._purge_semaphore
+_OBJC_CLASS_$_CacheDelete
+_OBJC_METACLASS_$_CacheDelete
+_sharedCacheDelete
+_gTimebaseConversion
+__mh_execute_header
+_CallService
+_CallServiceAsync
+_OBJC_CLASS_$_CDService
+_OBJC_CLASS_$_CacheDeleteListener
+_OBJC_CLASS_$_CacheDeleteRecentInfo
+_OBJC_CLASS_$_CacheDeleteRecentServiceInfo
+_OBJC_CLASS_$_CacheDeleteRecentVolumeInfo
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_METACLASS_$_NSObject
+_XPC_ACTIVITY_CHECK_IN
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_SjLj_Register
+__Unwind_SjLj_Resume
+__Unwind_SjLj_Unregister
+___CFConstantStringClassReference
+___error
+___floatdisf
+___floatundidf
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___udivdi3
+__objc_empty_cache
+_addDistributionStat
+_addReportStat
+_amountPurged
+_connectionIsEntitled
+_dispatch_assert_queue
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_group_async
+_dispatch_group_create
+_dispatch_group_wait
+_dispatch_main
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_suspend
+_dispatch_sync
+_dispatch_time
+_exit
+_gMOLogWrite
+_getLocalVolumes
+_getLogHandle
+_lowSpaceVolumes
+_mach_absolute_time
+_mach_timebase_info
+_notify_post
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_copyStruct
+_objc_copyWeak
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_getProperty
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_atomic
+_objc_storeStrong
+_signal
+_strerror
+_usleep
+_validateVolume
+_volumeFreespace
+_xpc_activity_get_state
+_xpc_activity_register
+_xpc_dictionary_get_uint64
+_xpc_set_event_stream_handler
+_xpc_transaction_begin
+_xpc_transaction_end
+dyld_stub_binder

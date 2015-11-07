@@ -1,0 +1,14 @@
+radr://5614542
+__mh_execute_header
+_CADExitStatusCode_UnexpectedCompletionOfMainFunction
+_OBJC_CLASS_$_CADServer
+__CPLog
+__CPLoggingMaxAcceptedLevel
+___CFConstantStringClassReference
+_kCADLogFacility
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_msgSend
+_objc_release
+_objc_retainAutoreleasedReturnValue
+dyld_stub_binder

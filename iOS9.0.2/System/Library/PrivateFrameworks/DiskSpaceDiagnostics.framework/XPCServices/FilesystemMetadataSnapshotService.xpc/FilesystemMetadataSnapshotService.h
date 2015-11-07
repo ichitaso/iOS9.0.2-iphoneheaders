@@ -1,0 +1,3 @@
+#import <FilesystemMetadataSnapshotService/DSFilesystemMetadataSnapshotArchiver.h>
+#import <FilesystemMetadataSnapshotService/ServiceDelegate.h>
+#import <FilesystemMetadataSnapshotService/DSFilesystemMetadataSnapshotService.h>

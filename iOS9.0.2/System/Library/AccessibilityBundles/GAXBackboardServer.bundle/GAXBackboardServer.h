@@ -1,0 +1,16 @@
+#import <GAXBackboardServer/GAXBackboardServer.h>
+#import <GAXBackboardServer/GAXAccessibilityFeatureManager.h>
+#import <GAXBackboardServer/GAXSpringboardClientStatus.h>
+#import <GAXBackboardServer/GAXVerificationEventObject.h>
+#import <GAXBackboardServer/GAXVerifier.h>
+#import <GAXBackboardServer/__GAXBKAccelerometerInterfaceAccessibility_super.h>
+#import <GAXBackboardServer/GAXBKAccelerometerInterfaceAccessibility.h>
+#import <GAXBackboardServer/GAXAutomationCommand.h>
+#import <GAXBackboardServer/_GAXSettingsFastStorage.h>
+#import <GAXBackboardServer/GAXSettings.h>
+#import <GAXBackboardServer/GAXProfileManager.h>
+#import <GAXBackboardServer/GAXTimeRestrictionManager.h>
+#import <GAXBackboardServer/GAXEventProcessor.h>
+#import <GAXBackboardServer/GAXBackboard.h>
+#import <GAXBackboardServer/GAXAppManager.h>
+#import <GAXBackboardServer/_GAXAppRepresentation.h>

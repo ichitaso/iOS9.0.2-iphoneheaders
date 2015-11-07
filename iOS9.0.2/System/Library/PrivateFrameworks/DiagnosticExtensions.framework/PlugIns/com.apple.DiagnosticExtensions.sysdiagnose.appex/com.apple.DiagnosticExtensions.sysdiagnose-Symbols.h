@@ -1,0 +1,89 @@
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/sysdiagnose/sysdiagnose-55.1.3/sysdiagnose_DE/
+sysdiagnose_DEExtension.m
+/Library/Caches/com.apple.xbs/Binaries/sysdiagnose/sysdiagnose-55.1.3~3/Objects/sysdiagnose.build/sysdiagnose_DE.build/Objects-normal/armv7s/sysdiagnose_DEExtension.o
+-[sysdiagnose_DEExtension attachmentList]
+-[sysdiagnose_DEExtension attachmentsForParameters:]
+-[sysdiagnose_DEExtension setupConnection]
+___42-[sysdiagnose_DEExtension setupConnection]_block_invoke
+-[sysdiagnose_DEExtension requestSysdiagnose]
+-[sysdiagnose_DEExtension sendSysdiagnoseRequest:]
+-[sysdiagnose_DEExtension connection]
+-[sysdiagnose_DEExtension setConnection:]
+-[sysdiagnose_DEExtension .cxx_destruct]
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_sysdiagnose_DEExtension._connection
+_OBJC_METACLASS_$_sysdiagnose_DEExtension
+_OBJC_CLASS_$_sysdiagnose_DEExtension
+/Library/Caches/com.apple.xbs/Binaries/sysdiagnose/sysdiagnose-55.1.3~3/Objects/sysdiagnose.build/sysdiagnose_DE.build/DerivedSources/
+com.apple.DiagnosticExtensions.sysdiagnose_vers.c
+/Library/Caches/com.apple.xbs/Binaries/sysdiagnose/sysdiagnose-55.1.3~3/Objects/sysdiagnose.build/sysdiagnose_DE.build/Objects-normal/armv7s/com.apple.DiagnosticExtensions.sysdiagnose_vers.o
+_com_apple_DiagnosticExtensions_sysdiagnoseVersionString
+_com_apple_DiagnosticExtensions_sysdiagnoseVersionNumber
+-[sysdiagnose_DEExtension attachmentList]
+-[sysdiagnose_DEExtension attachmentsForParameters:]
+-[sysdiagnose_DEExtension setupConnection]
+___42-[sysdiagnose_DEExtension setupConnection]_block_invoke
+-[sysdiagnose_DEExtension requestSysdiagnose]
+-[sysdiagnose_DEExtension sendSysdiagnoseRequest:]
+-[sysdiagnose_DEExtension connection]
+-[sysdiagnose_DEExtension setConnection:]
+-[sysdiagnose_DEExtension .cxx_destruct]
+_objc_autoreleaseReturnValue$shim
+_objc_release$shim
+_objc_getProperty$shim
+_objc_setProperty_atomic$shim
+_objc_storeStrong$shim
+ stub helpers
+_com_apple_DiagnosticExtensions_sysdiagnoseVersionString
+_com_apple_DiagnosticExtensions_sysdiagnoseVersionNumber
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_sysdiagnose_DEExtension._connection
+_OBJC_METACLASS_$_sysdiagnose_DEExtension
+_OBJC_CLASS_$_sysdiagnose_DEExtension
+__mh_execute_header
+_CFPreferencesAppSynchronize
+_CFPreferencesGetAppBooleanValue
+_NSExtensionMain
+_NSLog
+_OBJC_CLASS_$_DEAttachmentItem
+_OBJC_CLASS_$_DEExtensionProvider
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSRegularExpression
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_METACLASS_$_DEExtensionProvider
+_OBJC_METACLASS_$_NSObject
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+___NSArray0__
+__objc_empty_cache
+__os_assert_log
+__os_assumes_log
+__os_avoid_tail_call
+__os_crash
+__xpc_error_key_description
+__xpc_type_dictionary
+__xpc_type_error
+_dispatch_get_global_queue
+_objc_autoreleaseReturnValue
+_objc_getProperty
+_objc_msgSend
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_atomic
+_objc_storeStrong
+_xpc_connection_create_mach_service
+_xpc_connection_resume
+_xpc_connection_send_message_with_reply_sync
+_xpc_connection_set_event_handler
+_xpc_dictionary_create
+_xpc_dictionary_get_string
+_xpc_dictionary_set_bool
+_xpc_dictionary_set_string
+_xpc_get_type
+dyld_stub_binder

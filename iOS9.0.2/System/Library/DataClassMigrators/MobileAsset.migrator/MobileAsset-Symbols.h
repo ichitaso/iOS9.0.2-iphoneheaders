@@ -1,0 +1,12 @@
+radr://5614542
+_OBJC_CLASS_$_ASMigrator
+_OBJC_METACLASS_$_ASMigrator
+___MobileAssetVersionNumber
+___MobileAssetVersionString
+_OBJC_CLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+___TriggerAssetMigration
+__objc_empty_cache
+dyld_stub_binder

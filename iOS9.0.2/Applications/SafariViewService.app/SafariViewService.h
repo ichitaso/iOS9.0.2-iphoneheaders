@@ -1,0 +1,1 @@
+#import <SafariViewService/BrowserViewServiceApplicationDelegate.h>

@@ -1,0 +1,9 @@
+#import <Music/__MusicUIApplicationAccessibility_super.h>
+#import <Music/MusicUIApplicationAccessibility.h>
+#import <Music/AXMusicGlue.h>
+#import <Music/__MusicSKUICollectionViewAccessibility_super.h>
+#import <Music/MusicSKUICollectionViewAccessibility.h>
+#import <Music/__MusicNSObjectAccessibility_super.h>
+#import <Music/MusicNSObjectAccessibility.h>
+#import <Music/__MusicUINavigationButtonAccessibility_super.h>
+#import <Music/MusicUINavigationButtonAccessibility.h>

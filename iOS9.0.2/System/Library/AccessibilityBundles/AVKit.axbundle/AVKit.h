@@ -1,0 +1,15 @@
+#import <AVKit/AXAVKitGlue.h>
+#import <AVKit/__AVPlayerViewControllerAccessibility_super.h>
+#import <AVKit/AVPlayerViewControllerAccessibility.h>
+#import <AVKit/__AVFullScreenPlaybackControlsViewControllerAccessibility_super.h>
+#import <AVKit/AVFullScreenPlaybackControlsViewControllerAccessibility.h>
+#import <AVKit/__AVTouchIgnoringViewAccessibility_super.h>
+#import <AVKit/AVTouchIgnoringViewAccessibility.h>
+#import <AVKit/__AVPictureInPictureUIViewAccessibility_super.h>
+#import <AVKit/AVPictureInPictureUIViewAccessibility.h>
+#import <AVKit/__AVPictureInPictureControllerAccessibility_super.h>
+#import <AVKit/AVPictureInPictureControllerAccessibility.h>
+#import <AVKit/__AVPlayerLayerViewAccessibility_super.h>
+#import <AVKit/AVPlayerLayerViewAccessibility.h>
+#import <AVKit/__AVPictureInPictureViewControllerAccessibility_super.h>
+#import <AVKit/AVPictureInPictureViewControllerAccessibility.h>

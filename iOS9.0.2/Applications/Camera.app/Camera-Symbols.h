@@ -1,0 +1,12 @@
+radr://5614542
+__mh_execute_header
+_NSStringFromClass
+_OBJC_CLASS_$_CAMApplication
+_OBJC_CLASS_$_CAMApplicationDelegate
+_UIApplicationMain
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_msgSend
+_objc_release
+_objc_retainAutoreleasedReturnValue
+dyld_stub_binder

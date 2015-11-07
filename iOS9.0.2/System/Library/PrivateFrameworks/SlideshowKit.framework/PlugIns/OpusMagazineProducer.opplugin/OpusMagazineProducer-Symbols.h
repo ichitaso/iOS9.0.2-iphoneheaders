@@ -1,0 +1,603 @@
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/SlideshowKit/SlideshowKit-1580/OpusKitPlugins/OpusProducers/OpusMagazineProducer/
+OKAutoLayout.m
+/Library/Caches/com.apple.xbs/Binaries/SlideshowKit/SlideshowKit-1580~40/Objects/OpusMagazineProducer.build/OpusMagazineProducer Plugin iOS.build/Objects-normal/armv7s/OKAutoLayout.o
+__doubleValueComparator_block_invoke
+-[OKAutoLayoutLayoutInfo _parseLayout]
+-[OKAutoLayoutLayoutInfo initWithLayout:]
+-[OKAutoLayoutLayoutInfo dealloc]
+-[OKAutoLayoutLayoutInfo name]
+-[OKAutoLayoutLayoutInfo rectForRectName:]
+-[OKAutoLayoutLayoutInfo targetScreenSize]
+-[OKAutoLayoutLayoutInfo currentScore]
+-[OKAutoLayoutLayoutInfo setCurrentScore:]
+-[OKAutoLayoutLayoutInfo baseScore]
+-[OKAutoLayoutLayoutInfo numOfMedia]
+-[OKAutoLayoutLayoutInfo areaPercentInAppearOrder]
+-[OKAutoLayoutLayoutInfo aspectRatiosInAppearOrder]
+-[OKAutoLayoutLayoutInfo rectNamesInAppearOrder]
+-[OKAutoLayoutLayoutInfo origLayout]
+-[OKAutoLayoutLayoutInfo isTitle]
+-[OKAutoLayoutLayoutInfo isSubtitle]
+-[OKAutoLayoutLayoutInfo textWidgetName]
+-[OKAutoLayoutFreqController init]
+-[OKAutoLayoutFreqController dealloc]
+-[OKAutoLayoutFreqController _freqOfUp:]
+-[OKAutoLayoutFreqController _freqOrderFromHightToLow]
+-[OKAutoLayoutFreqController _isLayout:usedInLast:]
+-[OKAutoLayoutFreqController addOnePageLayout:]
+-[OKAutoLayoutFreqController bestLayoutByFreqOfAnyUpsFromLayouts:]
+___66-[OKAutoLayoutFreqController bestLayoutByFreqOfAnyUpsFromLayouts:]_block_invoke
+-[OKAutoLayoutFreqController bestLayoutByFreqOfSameUpFromLayouts:forResolution:]
+-[OKAutoLayoutFreqController printStatistics]
+-[OKAutoLayout initWithPresentation:]
+-[OKAutoLayout dealloc]
++[OKAutoLayout croppedPercentageforRectASP:photoASP:]
++[OKAutoLayout panningCropThreshold]
++[OKAutoLayout needsPanoramaEffectForRectASP:mediaASP:]
++[OKAutoLayout scaleFactorForMediaItem:toFitInRect:]
++[OKAutoLayout photoScoreForMediaItem:]
+-[OKAutoLayout _croppingScoreForMediaItems:layoutInfo:]
+-[OKAutoLayout _matchMediaItems:toLayoutInfo:orderedKeys:]
+-[OKAutoLayout _findBestMatchingLayoutFromLayouts:forMediaItems:currentIndx:checkFollowingMediaItems:remainingItems:guidelineForMediaItems:isFirstPage:]
+-[OKAutoLayout _maxDurationOfMediaItems:]
+-[OKAutoLayout _analyzeLayouts:]
+-[OKAutoLayout _analyzeLayouts2:]
+-[OKAutoLayout _loopAllLayouts:numOfAllMedias:layoutInfos:primaryResolution:]
+-[OKAutoLayout _titleGuidelineFromPresentation:]
+-[OKAutoLayout _subtitleGuidelineFromPresentation:forMediaItem:]
+-[OKAutoLayout generatePagesByMediaItems:layoutsByResolution:primaryResolutionKey:]
+-[OKAutoLayout _metadataForMediaItem:]
+-[OKAutoLayout _parseLayouts:]
+-[OKAutoLayout layoutAspectRatio]
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/SlideshowKit/SlideshowKit-1580/OpusKitPlugins/OpusProducers/OpusMagazineProducer/OKAutoLayout.h
+-[OKAutoLayout setLayoutAspectRatio:]
+-[OKAutoLayout targetAspectRatio]
+-[OKAutoLayout setTargetAspectRatio:]
+-[OKAutoLayout allowMovieWithPhotos]
+-[OKAutoLayout setAllowMovieWithPhotos:]
+-[OKAutoLayout forceToIterateAllLayouts]
+-[OKAutoLayout setForceToIterateAllLayouts:]
+-[OKAutoLayoutLiveFeedContext dealloc]
+-[OKAutoLayoutLiveFeedContext layoutInfos]
+-[OKAutoLayoutLiveFeedContext setLayoutInfos:]
+-[OKAutoLayoutLiveFeedContext primaryResolutionKey]
+-[OKAutoLayoutLiveFeedContext setPrimaryResolutionKey:]
+-[OKAutoLayoutLiveFeedContext pagesGenerated]
+-[OKAutoLayoutLiveFeedContext setPagesGenerated:]
+-[OKAutoLayoutLiveFeedContext mediasUsed]
+-[OKAutoLayoutLiveFeedContext setMediasUsed:]
+-[OKAutoLayout(LiveFeedingSupporting) startFeedWith:primaryResolutionKey:]
+-[OKAutoLayout(LiveFeedingSupporting) generateNextPagesByMediaItems:maxPages:isFirstPage:]
+-[OKAutoLayout(LiveFeedingSupporting) endFeed]
+-[OKAutoLayout(LiveFeedingSupporting) liveFeedNumOfMediasUsed]
+-[OKAutoLayout(LiveFeedingSupporting) liveFeedNumOfPagesGenerated]
+-[OKAutoLayout(LiveFeedingSupporting) liveFeedPrimaryResolutionKey]
+_OKAutoLayoutName
+_OKAutoLayoutBaseScore
+_OKAutoLayoutRect
+_OKAutoLayoutScreenRect
+_OKAutoLayoutMediaPrefix
+_OKAutoLayoutAppearOrder
+_OKAutoLayoutIsTitle
+_OKAutoLayoutIsSubtitle
+_OKAutoLayoutPageMaxMediaDuration
+_OKAutoLayoutPagePrimaryResolutionKey
+_OKAutoLayoutPageAllLayouts
+_OKAutoLayoutPageMediaItemsDict
+_OKAutoLayoutPageTextItemsDict
+_OKAutoLayoutPageAllItems
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp161
+___block_literal_global162
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._origLayout
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._baseScore
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._currentScore
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._areaPercentInAppearOrder
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._aspectRatiosInAppearOrder
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._rectNamesInAppearOrder
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._isTitle
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._textWidgetName
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._isSubtitle
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._numOfMedia
+_OBJC_IVAR_$_OKAutoLayoutFreqController._pageFrequency
+_OBJC_IVAR_$_OKAutoLayoutFreqController._pages
+_OBJC_IVAR_$_OKAutoLayoutFreqController._layoutsByResolution
+_OBJC_IVAR_$_OKAutoLayoutFreqController._counts
+_OBJC_IVAR_$_OKAutoLayout._presentation
+_OBJC_IVAR_$_OKAutoLayout._metadataCacheDict
+_OBJC_IVAR_$_OKAutoLayout._liveFeedContext
+_OBJC_IVAR_$_OKAutoLayout._freqController
+_OBJC_IVAR_$_OKAutoLayout._layoutAspectRatio
+_OBJC_IVAR_$_OKAutoLayout._targetAspectRatio
+_OBJC_IVAR_$_OKAutoLayout._allowMovieWithPhotos
+_OBJC_IVAR_$_OKAutoLayout._forceToIterateAllLayouts
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._layoutInfos
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._primaryResolutionKey
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._pagesGenerated
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._mediasUsed
+_OBJC_CLASS_$_OKAutoLayoutLayoutInfo
+_OBJC_METACLASS_$_OKAutoLayoutLayoutInfo
+_OBJC_CLASS_$_OKAutoLayoutFreqController
+_OBJC_METACLASS_$_OKAutoLayoutFreqController
+_OBJC_CLASS_$_OKAutoLayout
+_OBJC_METACLASS_$_OKAutoLayout
+_OBJC_CLASS_$_OKAutoLayoutLiveFeedContext
+_OBJC_METACLASS_$_OKAutoLayoutLiveFeedContext
+__doubleValueComparator
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/SlideshowKit/SlideshowKit-1580/OpusKitPlugins/OpusProducers/OpusMagazineProducer/
+OpusMagazineProducer.m
+/Library/Caches/com.apple.xbs/Binaries/SlideshowKit/SlideshowKit-1580~40/Objects/OpusMagazineProducer.build/OpusMagazineProducer Plugin iOS.build/Objects-normal/armv7s/OpusMagazineProducer.o
+-[OpusMagazineProducerContext init]
+-[OpusMagazineProducerContext dealloc]
+-[OpusMagazineProducerContext producerResources]
+-[OpusMagazineProducerContext setProducerResources:]
+-[OpusMagazineProducerContext synopsisGroups]
+-[OpusMagazineProducerContext setSynopsisGroups:]
+-[OpusMagazineProducerContext audioList]
+-[OpusMagazineProducerContext setAudioList:]
+-[OpusMagazineProducer init]
+-[OpusMagazineProducer dealloc]
++[OpusMagazineProducer setupJavascriptContext:]
+-[OpusMagazineProducer _setupResolutions:]
+-[OpusMagazineProducer _addPageTemplateToPresentation:templateName:withSettings:zOrder:]
+-[OpusMagazineProducer _doAuthoring:context:guidelines:pageDurations:progressBlock:error:]
+___90-[OpusMagazineProducer _doAuthoring:context:guidelines:pageDurations:progressBlock:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___90-[OpusMagazineProducer _doAuthoring:context:guidelines:pageDurations:progressBlock:error:]_block_invoke198
+___copy_helper_block_211
+___destroy_helper_block_212
+-[OpusMagazineProducer _addAnimationsToLayout:]
+-[OpusMagazineProducer _addAnimationsToLayouts:]
+-[OpusMagazineProducer _allLayoutsFromTileEngine:]
+-[OpusMagazineProducer _configPanoramaSettings:rect:widgetName:]
+-[OpusMagazineProducer _configPageWidgetsSettings:mediaItemGuidelines:textItems:pageItems:pageInfo:properties:progressBlock:error:]
+-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]
+___61-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]_block_invoke
+___copy_helper_block_445
+___destroy_helper_block_446
+___61-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]_block_invoke451
+___copy_helper_block_452
+___destroy_helper_block_453
+___61-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]_block_invoke455
+___copy_helper_block_456
+___destroy_helper_block_457
+-[OpusMagazineProducer _authorCluster:progressBlock:error:]
+-[OpusMagazineProducer _authorImport:progressBlock:error:]
+-[OpusMagazineProducer _authorProduce:progressBlock:error:]
+-[OpusMagazineProducer _authorFinish:progressBlock:error:]
+-[OpusMagazineProducer author:progressBlock:requiresProducer:error:]
+-[OpusMagazineProducer _initTemplatesAndScript:]
+-[OpusMagazineProducer _initCouchPotatoSettings]
+-[OpusMagazineProducer _initNavigatorSettings]
+-[OpusMagazineProducer supportsLiveAuthoring]
+-[OpusMagazineProducer needsLiveAuthoring]
+-[OpusMagazineProducer resetLiveAuthoring]
+-[OpusMagazineProducer liveAuthorInitialBootstrap:error:]
+-[OpusMagazineProducer liveAuthorNextChunk:error:]
+-[OpusMagazineProducer totalNumberOfLiveAuthoringItems]
+-[OpusMagazineProducer currentLiveAuthoringProgress]
+-[OpusMagazineProducer liveAuthoringProgressForMediaItem:]
+-[OpusMagazineProducer _addPageWithPageInfo:primaryResolutionKey:progressBlock:error:]
+___86-[OpusMagazineProducer _addPageWithPageInfo:primaryResolutionKey:progressBlock:error:]_block_invoke
+___copy_helper_block_707
+___destroy_helper_block_708
+GCC_except_table25
+GCC_except_table35
+GCC_except_table36
+GCC_except_table37
+GCC_except_table38
+GCC_except_table44
+GCC_except_table45
+GCC_except_table46
+GCC_except_table47
+GCC_except_table48
+GCC_except_table49
+GCC_except_table50
+___block_descriptor_tmp
+___block_descriptor_tmp214
+___block_descriptor_tmp448
+___block_descriptor_tmp454
+___block_descriptor_tmp458
+___block_descriptor_tmp709
+_OBJC_IVAR_$_OpusMagazineProducerContext._producerResources
+_OBJC_IVAR_$_OpusMagazineProducerContext._synopsisGroups
+_OBJC_IVAR_$_OpusMagazineProducerContext._audioList
+_OBJC_IVAR_$_OpusMagazineProducer._autoLayoutEngine
+_OBJC_IVAR_$_OpusMagazineProducer._randomSeed
+_OBJC_CLASS_$_OpusMagazineProducerContext
+_OBJC_METACLASS_$_OpusMagazineProducerContext
+_OBJC_CLASS_$_OpusMagazineProducer
+_OBJC_METACLASS_$_OpusMagazineProducer
+__sCachedAllLayouts
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/SlideshowKit/SlideshowKit-1580/OpusKitPlugins/OpusProducers/OpusMagazineProducer/
+OKAutoLayoutTileMaker.mm
+/Library/Caches/com.apple.xbs/Binaries/SlideshowKit/SlideshowKit-1580~40/Objects/OpusMagazineProducer.build/OpusMagazineProducer Plugin iOS.build/Objects-normal/armv7s/OKAutoLayoutTileMaker.o
+-[OKAutoLayoutGrid initWithRows:columns:]
+-[OKAutoLayoutGrid dealloc]
+-[OKAutoLayoutGrid description]
+-[OKAutoLayoutGrid mark:forAreaX:Y:W:H:]
+-[OKAutoLayoutGrid unmarkForAreaX:Y:W:H:]
+-[OKAutoLayoutGrid hasAnyEmptyTiles]
+-[OKAutoLayoutGrid nextEmptyTile::]
+-[OKAutoLayoutGrid biggestEmptyRectFromPtX:Y:W:H:]
+-[OKAutoLayoutGrid nextPossibleRects:]
+/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.Internal.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[OKAutoLayoutGrid reset]
+-[OKAutoLayoutGrid rows]
+-[OKAutoLayoutGrid columns]
+-[OKAutoLayoutTileMaker init]
+-[OKAutoLayoutTileMaker dealloc]
+-[OKAutoLayoutTileMaker croppingScoreOfLayout:forAspectRatios:]
+-[OKAutoLayoutTileMaker _prepare:]
+-[OKAutoLayoutTileMaker _isQualifiedOneUpLayout:]
+-[OKAutoLayoutTileMaker _isQualifiedFrame:]
+-[OKAutoLayoutTileMaker _oneUpLayouts:]
+-[OKAutoLayoutTileMaker _findNextFrameFromGrid:curIndex:maxIndex:curFrames:layouts:]
+-[OKAutoLayoutTileMaker layoutsForFrames:inRect:borderInPx:]
+-[OKAutoLayoutTileMaker convertTiles:toResolution::borderInPx:offsetX:offsetY:]
+-[OKAutoLayoutTileMaker rows]
+/BuildRoot/Library/Caches/com.apple.xbs/Sources/SlideshowKit/SlideshowKit-1580/OpusKitPlugins/OpusProducers/OpusMagazineProducer/OKAutoLayoutTileMaker.h
+-[OKAutoLayoutTileMaker setRows:]
+-[OKAutoLayoutTileMaker columns]
+-[OKAutoLayoutTileMaker setColumns:]
+-[OKAutoLayoutTileMaker maxFrameAspectRatio]
+-[OKAutoLayoutTileMaker setMaxFrameAspectRatio:]
+-[OKAutoLayoutTileMaker minFrameAspectRatio]
+-[OKAutoLayoutTileMaker setMinFrameAspectRatio:]
+-[OKAutoLayoutTileMaker minFrameArea]
+-[OKAutoLayoutTileMaker setMinFrameArea:]
+-[OKAutoLayoutTileMaker oneUpWhitespaceAllowed]
+-[OKAutoLayoutTileMaker setOneUpWhitespaceAllowed:]
+_OBJC_IVAR_$_OKAutoLayoutGrid._columns
+_OBJC_IVAR_$_OKAutoLayoutGrid._rows
+_OBJC_IVAR_$_OKAutoLayoutGrid._tiles
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._columns
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._rows
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._oneUpWhitespaceAllowed
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._maxFrameAspectRatio
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._minFrameAspectRatio
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._minFrameArea
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._tileTable
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._blockAspectRatio
+_OBJC_CLASS_$_OKAutoLayoutGrid
+_OBJC_METACLASS_$_OKAutoLayoutGrid
+_OBJC_CLASS_$_OKAutoLayoutTileMaker
+_OBJC_METACLASS_$_OKAutoLayoutTileMaker
+/Library/Caches/com.apple.xbs/Binaries/SlideshowKit/SlideshowKit-1580~40/Objects/OpusMagazineProducer.build/OpusMagazineProducer Plugin iOS.build/DerivedSources/
+OpusMagazineProducer_vers.c
+/Library/Caches/com.apple.xbs/Binaries/SlideshowKit/SlideshowKit-1580~40/Objects/OpusMagazineProducer.build/OpusMagazineProducer Plugin iOS.build/Objects-normal/armv7s/OpusMagazineProducer_vers.o
+_OpusMagazineProducerVersionString
+_OpusMagazineProducerVersionNumber
+__doubleValueComparator_block_invoke
+-[OKAutoLayoutLayoutInfo _parseLayout]
+-[OKAutoLayoutLayoutInfo initWithLayout:]
+-[OKAutoLayoutLayoutInfo dealloc]
+-[OKAutoLayoutLayoutInfo name]
+-[OKAutoLayoutLayoutInfo rectForRectName:]
+-[OKAutoLayoutLayoutInfo targetScreenSize]
+-[OKAutoLayoutLayoutInfo currentScore]
+-[OKAutoLayoutLayoutInfo setCurrentScore:]
+-[OKAutoLayoutLayoutInfo baseScore]
+-[OKAutoLayoutLayoutInfo numOfMedia]
+-[OKAutoLayoutLayoutInfo areaPercentInAppearOrder]
+-[OKAutoLayoutLayoutInfo aspectRatiosInAppearOrder]
+-[OKAutoLayoutLayoutInfo rectNamesInAppearOrder]
+-[OKAutoLayoutLayoutInfo origLayout]
+-[OKAutoLayoutLayoutInfo isTitle]
+-[OKAutoLayoutLayoutInfo isSubtitle]
+-[OKAutoLayoutLayoutInfo textWidgetName]
+-[OKAutoLayoutFreqController init]
+-[OKAutoLayoutFreqController dealloc]
+-[OKAutoLayoutFreqController _freqOfUp:]
+-[OKAutoLayoutFreqController _freqOrderFromHightToLow]
+-[OKAutoLayoutFreqController _isLayout:usedInLast:]
+-[OKAutoLayoutFreqController addOnePageLayout:]
+-[OKAutoLayoutFreqController bestLayoutByFreqOfAnyUpsFromLayouts:]
+___66-[OKAutoLayoutFreqController bestLayoutByFreqOfAnyUpsFromLayouts:]_block_invoke
+-[OKAutoLayoutFreqController bestLayoutByFreqOfSameUpFromLayouts:forResolution:]
+-[OKAutoLayoutFreqController printStatistics]
+-[OKAutoLayout initWithPresentation:]
+-[OKAutoLayout dealloc]
++[OKAutoLayout croppedPercentageforRectASP:photoASP:]
++[OKAutoLayout panningCropThreshold]
++[OKAutoLayout needsPanoramaEffectForRectASP:mediaASP:]
++[OKAutoLayout scaleFactorForMediaItem:toFitInRect:]
++[OKAutoLayout photoScoreForMediaItem:]
+-[OKAutoLayout _croppingScoreForMediaItems:layoutInfo:]
+-[OKAutoLayout _matchMediaItems:toLayoutInfo:orderedKeys:]
+-[OKAutoLayout _findBestMatchingLayoutFromLayouts:forMediaItems:currentIndx:checkFollowingMediaItems:remainingItems:guidelineForMediaItems:isFirstPage:]
+-[OKAutoLayout _maxDurationOfMediaItems:]
+-[OKAutoLayout _analyzeLayouts:]
+-[OKAutoLayout _analyzeLayouts2:]
+-[OKAutoLayout _loopAllLayouts:numOfAllMedias:layoutInfos:primaryResolution:]
+-[OKAutoLayout _titleGuidelineFromPresentation:]
+-[OKAutoLayout _subtitleGuidelineFromPresentation:forMediaItem:]
+-[OKAutoLayout generatePagesByMediaItems:layoutsByResolution:primaryResolutionKey:]
+-[OKAutoLayout _metadataForMediaItem:]
+-[OKAutoLayout _parseLayouts:]
+-[OKAutoLayout layoutAspectRatio]
+-[OKAutoLayout setLayoutAspectRatio:]
+-[OKAutoLayout targetAspectRatio]
+-[OKAutoLayout setTargetAspectRatio:]
+-[OKAutoLayout allowMovieWithPhotos]
+-[OKAutoLayout setAllowMovieWithPhotos:]
+-[OKAutoLayout forceToIterateAllLayouts]
+-[OKAutoLayout setForceToIterateAllLayouts:]
+-[OKAutoLayoutLiveFeedContext dealloc]
+-[OKAutoLayoutLiveFeedContext layoutInfos]
+-[OKAutoLayoutLiveFeedContext setLayoutInfos:]
+-[OKAutoLayoutLiveFeedContext primaryResolutionKey]
+-[OKAutoLayoutLiveFeedContext setPrimaryResolutionKey:]
+-[OKAutoLayoutLiveFeedContext pagesGenerated]
+-[OKAutoLayoutLiveFeedContext setPagesGenerated:]
+-[OKAutoLayoutLiveFeedContext mediasUsed]
+-[OKAutoLayoutLiveFeedContext setMediasUsed:]
+-[OKAutoLayout(LiveFeedingSupporting) startFeedWith:primaryResolutionKey:]
+-[OKAutoLayout(LiveFeedingSupporting) generateNextPagesByMediaItems:maxPages:isFirstPage:]
+-[OKAutoLayout(LiveFeedingSupporting) endFeed]
+-[OKAutoLayout(LiveFeedingSupporting) liveFeedNumOfMediasUsed]
+-[OKAutoLayout(LiveFeedingSupporting) liveFeedNumOfPagesGenerated]
+-[OKAutoLayout(LiveFeedingSupporting) liveFeedPrimaryResolutionKey]
+-[OpusMagazineProducerContext init]
+-[OpusMagazineProducerContext dealloc]
+-[OpusMagazineProducerContext producerResources]
+-[OpusMagazineProducerContext setProducerResources:]
+-[OpusMagazineProducerContext synopsisGroups]
+-[OpusMagazineProducerContext setSynopsisGroups:]
+-[OpusMagazineProducerContext audioList]
+-[OpusMagazineProducerContext setAudioList:]
+-[OpusMagazineProducer init]
+-[OpusMagazineProducer dealloc]
++[OpusMagazineProducer setupJavascriptContext:]
+-[OpusMagazineProducer _setupResolutions:]
+-[OpusMagazineProducer _addPageTemplateToPresentation:templateName:withSettings:zOrder:]
+-[OpusMagazineProducer _doAuthoring:context:guidelines:pageDurations:progressBlock:error:]
+___90-[OpusMagazineProducer _doAuthoring:context:guidelines:pageDurations:progressBlock:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___90-[OpusMagazineProducer _doAuthoring:context:guidelines:pageDurations:progressBlock:error:]_block_invoke198
+___copy_helper_block_211
+___destroy_helper_block_212
+-[OpusMagazineProducer _addAnimationsToLayout:]
+-[OpusMagazineProducer _addAnimationsToLayouts:]
+-[OpusMagazineProducer _allLayoutsFromTileEngine:]
+-[OpusMagazineProducer _configPanoramaSettings:rect:widgetName:]
+-[OpusMagazineProducer _configPageWidgetsSettings:mediaItemGuidelines:textItems:pageItems:pageInfo:properties:progressBlock:error:]
+-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]
+___61-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]_block_invoke
+___copy_helper_block_445
+___destroy_helper_block_446
+___61-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]_block_invoke451
+___copy_helper_block_452
+___destroy_helper_block_453
+___61-[OpusMagazineProducer _authorBootstrap:progressBlock:error:]_block_invoke455
+___copy_helper_block_456
+___destroy_helper_block_457
+-[OpusMagazineProducer _authorCluster:progressBlock:error:]
+-[OpusMagazineProducer _authorImport:progressBlock:error:]
+-[OpusMagazineProducer _authorProduce:progressBlock:error:]
+-[OpusMagazineProducer _authorFinish:progressBlock:error:]
+-[OpusMagazineProducer author:progressBlock:requiresProducer:error:]
+-[OpusMagazineProducer _initTemplatesAndScript:]
+-[OpusMagazineProducer _initCouchPotatoSettings]
+-[OpusMagazineProducer _initNavigatorSettings]
+-[OpusMagazineProducer supportsLiveAuthoring]
+-[OpusMagazineProducer needsLiveAuthoring]
+-[OpusMagazineProducer resetLiveAuthoring]
+-[OpusMagazineProducer liveAuthorInitialBootstrap:error:]
+-[OpusMagazineProducer liveAuthorNextChunk:error:]
+-[OpusMagazineProducer totalNumberOfLiveAuthoringItems]
+-[OpusMagazineProducer currentLiveAuthoringProgress]
+-[OpusMagazineProducer liveAuthoringProgressForMediaItem:]
+-[OpusMagazineProducer _addPageWithPageInfo:primaryResolutionKey:progressBlock:error:]
+___86-[OpusMagazineProducer _addPageWithPageInfo:primaryResolutionKey:progressBlock:error:]_block_invoke
+___copy_helper_block_707
+___destroy_helper_block_708
+-[OKAutoLayoutGrid initWithRows:columns:]
+-[OKAutoLayoutGrid dealloc]
+-[OKAutoLayoutGrid description]
+-[OKAutoLayoutGrid mark:forAreaX:Y:W:H:]
+-[OKAutoLayoutGrid unmarkForAreaX:Y:W:H:]
+-[OKAutoLayoutGrid hasAnyEmptyTiles]
+-[OKAutoLayoutGrid nextEmptyTile::]
+-[OKAutoLayoutGrid biggestEmptyRectFromPtX:Y:W:H:]
+-[OKAutoLayoutGrid nextPossibleRects:]
+-[OKAutoLayoutGrid reset]
+-[OKAutoLayoutGrid rows]
+-[OKAutoLayoutGrid columns]
+-[OKAutoLayoutTileMaker init]
+-[OKAutoLayoutTileMaker dealloc]
+-[OKAutoLayoutTileMaker croppingScoreOfLayout:forAspectRatios:]
+-[OKAutoLayoutTileMaker _prepare:]
+-[OKAutoLayoutTileMaker _isQualifiedOneUpLayout:]
+-[OKAutoLayoutTileMaker _isQualifiedFrame:]
+-[OKAutoLayoutTileMaker _oneUpLayouts:]
+-[OKAutoLayoutTileMaker _findNextFrameFromGrid:curIndex:maxIndex:curFrames:layouts:]
+-[OKAutoLayoutTileMaker layoutsForFrames:inRect:borderInPx:]
+-[OKAutoLayoutTileMaker convertTiles:toResolution::borderInPx:offsetX:offsetY:]
+-[OKAutoLayoutTileMaker rows]
+-[OKAutoLayoutTileMaker setRows:]
+-[OKAutoLayoutTileMaker columns]
+-[OKAutoLayoutTileMaker setColumns:]
+-[OKAutoLayoutTileMaker maxFrameAspectRatio]
+-[OKAutoLayoutTileMaker setMaxFrameAspectRatio:]
+-[OKAutoLayoutTileMaker minFrameAspectRatio]
+-[OKAutoLayoutTileMaker setMinFrameAspectRatio:]
+-[OKAutoLayoutTileMaker minFrameArea]
+-[OKAutoLayoutTileMaker setMinFrameArea:]
+-[OKAutoLayoutTileMaker oneUpWhitespaceAllowed]
+-[OKAutoLayoutTileMaker setOneUpWhitespaceAllowed:]
+_objc_msgSend$shim
+_objc_setProperty_nonatomic$shim
+__Block_object_assign$shim
+__Block_object_dispose$shim
+ stub helpers
+GCC_except_table25
+GCC_except_table35
+GCC_except_table36
+GCC_except_table37
+GCC_except_table38
+GCC_except_table44
+GCC_except_table45
+GCC_except_table46
+GCC_except_table47
+GCC_except_table48
+GCC_except_table49
+GCC_except_table50
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp161
+___block_literal_global162
+___block_descriptor_tmp
+___block_descriptor_tmp214
+___block_descriptor_tmp448
+___block_descriptor_tmp454
+___block_descriptor_tmp458
+___block_descriptor_tmp709
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._origLayout
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._baseScore
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._currentScore
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._areaPercentInAppearOrder
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._aspectRatiosInAppearOrder
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._rectNamesInAppearOrder
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._isTitle
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._textWidgetName
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._isSubtitle
+_OBJC_IVAR_$_OKAutoLayoutLayoutInfo._numOfMedia
+_OBJC_IVAR_$_OKAutoLayoutFreqController._pageFrequency
+_OBJC_IVAR_$_OKAutoLayoutFreqController._layoutsByResolution
+_OBJC_IVAR_$_OKAutoLayoutFreqController._counts
+_OBJC_IVAR_$_OKAutoLayout._presentation
+_OBJC_IVAR_$_OKAutoLayout._metadataCacheDict
+_OBJC_IVAR_$_OKAutoLayout._liveFeedContext
+_OBJC_IVAR_$_OKAutoLayout._freqController
+_OBJC_IVAR_$_OKAutoLayout._layoutAspectRatio
+_OBJC_IVAR_$_OKAutoLayout._targetAspectRatio
+_OBJC_IVAR_$_OKAutoLayout._allowMovieWithPhotos
+_OBJC_IVAR_$_OKAutoLayout._forceToIterateAllLayouts
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._layoutInfos
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._primaryResolutionKey
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._pagesGenerated
+_OBJC_IVAR_$_OKAutoLayoutLiveFeedContext._mediasUsed
+_OBJC_IVAR_$_OpusMagazineProducerContext._producerResources
+_OBJC_IVAR_$_OpusMagazineProducerContext._synopsisGroups
+_OBJC_IVAR_$_OpusMagazineProducerContext._audioList
+_OBJC_IVAR_$_OpusMagazineProducer._autoLayoutEngine
+_OBJC_IVAR_$_OpusMagazineProducer._randomSeed
+_OBJC_IVAR_$_OKAutoLayoutGrid._columns
+_OBJC_IVAR_$_OKAutoLayoutGrid._rows
+_OBJC_IVAR_$_OKAutoLayoutGrid._tiles
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._columns
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._rows
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._oneUpWhitespaceAllowed
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._maxFrameAspectRatio
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._minFrameAspectRatio
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._minFrameArea
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._tileTable
+_OBJC_IVAR_$_OKAutoLayoutTileMaker._blockAspectRatio
+__sCachedAllLayouts
+_OBJC_CLASS_$_OKAutoLayout
+_OBJC_CLASS_$_OKAutoLayoutFreqController
+_OBJC_CLASS_$_OKAutoLayoutGrid
+_OBJC_CLASS_$_OKAutoLayoutLayoutInfo
+_OBJC_CLASS_$_OKAutoLayoutLiveFeedContext
+_OBJC_CLASS_$_OKAutoLayoutTileMaker
+_OBJC_CLASS_$_OpusMagazineProducer
+_OBJC_CLASS_$_OpusMagazineProducerContext
+_OBJC_IVAR_$_OKAutoLayoutFreqController._pages
+_OBJC_METACLASS_$_OKAutoLayout
+_OBJC_METACLASS_$_OKAutoLayoutFreqController
+_OBJC_METACLASS_$_OKAutoLayoutGrid
+_OBJC_METACLASS_$_OKAutoLayoutLayoutInfo
+_OBJC_METACLASS_$_OKAutoLayoutLiveFeedContext
+_OBJC_METACLASS_$_OKAutoLayoutTileMaker
+_OBJC_METACLASS_$_OpusMagazineProducer
+_OBJC_METACLASS_$_OpusMagazineProducerContext
+_OKAutoLayoutAppearOrder
+_OKAutoLayoutBaseScore
+_OKAutoLayoutIsSubtitle
+_OKAutoLayoutIsTitle
+_OKAutoLayoutMediaPrefix
+_OKAutoLayoutName
+_OKAutoLayoutPageAllItems
+_OKAutoLayoutPageAllLayouts
+_OKAutoLayoutPageMaxMediaDuration
+_OKAutoLayoutPageMediaItemsDict
+_OKAutoLayoutPagePrimaryResolutionKey
+_OKAutoLayoutPageTextItemsDict
+_OKAutoLayoutRect
+_OKAutoLayoutScreenRect
+_OpusMagazineProducerVersionNumber
+_OpusMagazineProducerVersionString
+__doubleValueComparator
+_CGRectInset
+_NSLog
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSIndexSet
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableIndexSet
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_OFRescalableSegment
+_OBJC_CLASS_$_OFRescaler
+_OBJC_CLASS_$_OKPresentationCouch
+_OBJC_CLASS_$_OKPresentationCouchStep
+_OBJC_CLASS_$_OKPresentationGuideline
+_OBJC_CLASS_$_OKPresentationNavigator
+_OBJC_CLASS_$_OKPresentationPage
+_OBJC_CLASS_$_OKPresentationWidget
+_OBJC_CLASS_$_OKProducer
+_OBJC_CLASS_$_OKRuntime
+_OBJC_CLASS_$_UIColor
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_OKProducer
+_OKErrorDomain
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_SjLj_Register
+__Unwind_SjLj_Resume
+__Unwind_SjLj_Unregister
+__ZdaPv
+__Znam
+___CFConstantStringClassReference
+___NSDictionary0__
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_floorf
+_free
+_kCAMediaTimingFunctionEaseInEaseOut
+_kCAMediaTimingFunctionEaseOut
+_kOKPresentationGuidelineAuthoringAttributedTitle
+_kOKPresentationGuidelineAuthoringSynopsisGroupItems
+_kOKPresentationGuidelineAuthoringSynopsisGroupName
+_kOKPresentationGuidelineAuthoringSynopsisItemNavigationKeyPath
+_kOKPresentationGuidelineAuthoringSynopsisItemType
+_kOKPresentationGuidelineAuthoringSynopsisItemValue
+_kOKPresentationGuidelineAuthoringTitle
+_kOKPresentationRootNavigatorName
+_kOKPresentationThumbnailNavigatorName
+_malloc
+_memset
+_objc_enumerationMutation
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_setProperty_nonatomic
+_objc_sync_enter
+_objc_sync_exit
+_random
+dyld_stub_binder

@@ -1,0 +1,11 @@
+#import <carkitd/CRBulletinDataProvider.h>
+#import <carkitd/CRVehicleStore.h>
+#import <carkitd/CRVehicleStoreAvailability.h>
+#import <carkitd/CRCarKitServiceAgent.h>
+#import <carkitd/CRVehicleAccessoryAlert.h>
+#import <carkitd/CROutstandingWiredVehicleApprovalAlert.h>
+#import <carkitd/CROutstandingWirelessVehicleApprovalAlert.h>
+#import <carkitd/CROutstandingVehiclePairingAlert.h>
+#import <carkitd/CRCarKitMonitoringServiceAgent.h>
+#import <carkitd/CRBluetoothManager.h>
+#import <carkitd/CRWiFiCarManager.h>

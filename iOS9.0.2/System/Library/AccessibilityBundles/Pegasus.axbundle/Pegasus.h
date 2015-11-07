@@ -1,0 +1,13 @@
+#import <Pegasus/__PGPictureInPictureControllerAccessibility_super.h>
+#import <Pegasus/PGPictureInPictureControllerAccessibility.h>
+#import <Pegasus/____PGViewAccessibility_super.h>
+#import <Pegasus/__PGViewAccessibility.h>
+#import <Pegasus/AXMobilePiPGlue.h>
+#import <Pegasus/__PGPictureInPictureViewControllerAccessibility_super.h>
+#import <Pegasus/PGPictureInPictureViewControllerAccessibility.h>
+#import <Pegasus/__PGButtonAccessibility_super.h>
+#import <Pegasus/PGButtonAccessibility.h>
+#import <Pegasus/__PGPlaybackProgressIndicatorAccessibility_super.h>
+#import <Pegasus/PGPlaybackProgressIndicatorAccessibility.h>
+#import <Pegasus/__PGPictureInPictureControlsViewControllerAccessibility_super.h>
+#import <Pegasus/PGPictureInPictureControlsViewControllerAccessibility.h>

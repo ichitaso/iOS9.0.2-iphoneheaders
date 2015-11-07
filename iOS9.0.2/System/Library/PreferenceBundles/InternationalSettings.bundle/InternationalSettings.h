@@ -1,0 +1,12 @@
+#import <InternationalSettings/PSLanguageTableViewCell.h>
+#import <InternationalSettings/InternationalSettingsController.h>
+#import <InternationalSettings/RegionFormatSampleView.h>
+#import <InternationalSettings/ISRegion.h>
+#import <InternationalSettings/ISLocaleController.h>
+#import <InternationalSettings/ISLocaleSetupController.h>
+#import <InternationalSettings/ISInternationalStatistics.h>
+#import <InternationalSettings/ISAdvancedLanguageController.h>
+#import <InternationalSettings/ISLanguage.h>
+#import <InternationalSettings/ISInternationalLanguageController.h>
+#import <InternationalSettings/ISInternationalLanguageSetupController.h>
+#import <InternationalSettings/ISAdvancedLocaleController.h>

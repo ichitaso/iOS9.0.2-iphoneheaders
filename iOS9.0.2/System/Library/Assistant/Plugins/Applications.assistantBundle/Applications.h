@@ -1,0 +1,12 @@
+#import <Applications/AAPCommandLaunch.h>
+#import <Applications/AAPSyncAnchor.h>
+#import <Applications/AAPSyncPrimitiveAnchor.h>
+#import <Applications/AAPSyncHandler.h>
+#import <Applications/AAPSyncMetaDataProcessor.h>
+#import <Applications/AAPSyncMetaDataSource.h>
+#import <Applications/AAPSyncMetaDataItemDelete.h>
+#import <Applications/AAPSyncMetaDataItemUpdate.h>
+#import <Applications/AAPSyncState.h>
+#import <Applications/AAPCommandCheckRestriction.h>
+#import <Applications/AAPCommandFilterNonRestricted.h>
+#import <Applications/AAPSyncStatePersistence.h>

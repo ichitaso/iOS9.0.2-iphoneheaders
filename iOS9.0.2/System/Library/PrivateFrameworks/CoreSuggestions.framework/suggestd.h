@@ -1,0 +1,14 @@
+#import <suggestd/SGDSpotlightReceiver.h>
+#import <suggestd/SGDPowerBudget.h>
+#import <suggestd/SGDHarvestQueueIndex.h>
+#import <suggestd/SGDWorkQueueFile.h>
+#import <suggestd/SGDWorkQueue.h>
+#import <suggestd/SGDWorkQueueItem.h>
+#import <suggestd/SGDWorkQueueName.h>
+#import <suggestd/SGRealtimeEventResponse.h>
+#import <suggestd/SGHistoryObserver.h>
+#import <suggestd/SGDSuggestManager.h>
+#import <suggestd/SGDSuggestManagerSettingsDecorator.h>
+#import <suggestd/SGDPowerLog.h>
+#import <suggestd/SGDServer.h>
+#import <suggestd/SGDDummyXpcDelegate.h>

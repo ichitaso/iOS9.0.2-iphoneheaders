@@ -1,0 +1,17 @@
+#import <SpotlightUIFramework/__SPUISearchMovieCellAccessibility_super.h>
+#import <SpotlightUIFramework/SPUISearchMovieCellAccessibility.h>
+#import <SpotlightUIFramework/__SPUISearchTableViewCellAccessibility_super.h>
+#import <SpotlightUIFramework/SPUISearchTableViewCellAccessibility.h>
+#import <SpotlightUIFramework/__SPUISearchTableHeaderViewAccessibility_super.h>
+#import <SpotlightUIFramework/SPUISearchTableHeaderViewAccessibility.h>
+#import <SpotlightUIFramework/__SPUISearchFieldAccessibility_super.h>
+#import <SpotlightUIFramework/SPUISearchFieldAccessibility.h>
+#import <SpotlightUIFramework/__SPUISearchContactButtonsViewAccessibility_super.h>
+#import <SpotlightUIFramework/SPUISearchContactButtonsViewAccessibility.h>
+#import <SpotlightUIFramework/__SPUISearchViewControllerAccessibility_super.h>
+#import <SpotlightUIFramework/SPUISearchViewControllerAccessibility.h>
+#import <SpotlightUIFramework/__SPUIMicrophoneButtonAccessibility_super.h>
+#import <SpotlightUIFramework/SPUIMicrophoneButtonAccessibility.h>
+#import <SpotlightUIFramework/AXSpotlightUIFrameworkGlue.h>
+#import <SpotlightUIFramework/__SPUISearchStandardCellAccessibility_super.h>
+#import <SpotlightUIFramework/SPUISearchStandardCellAccessibility.h>
