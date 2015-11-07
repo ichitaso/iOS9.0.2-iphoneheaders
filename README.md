@@ -14,4 +14,4 @@ Using <a href="https://github.com/limneos/classdump-dyld" target="_blank" rel="n
 
 ## Old Headers
 
-- <a href="https://github.com/ichitaso/iOS-iphoneheaders" target="_blank" rel="nofollow">https://github.com/ichitaso/iOS-iphoneheaders</a>
+- <a href="https://github.com/ichitaso/iOS-iphoneheaders">https://github.com/ichitaso/iOS-iphoneheaders</a>
